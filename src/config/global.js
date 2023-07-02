@@ -1,17 +1,15 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo:
+      'Planificación y evaluación del desempeño del sistema de gestión de la energía',
+    descripcionCurso:
+      'La determinación de los indicadores de desempeño energético (SGEn) y las líneas de base energética (LBEn) son fundamentales porque a través de ellos se puede demostrar la mejora continua del desempeño de la organización. En este capítulo se abordan los temas para la determinación de los IDEn y las LBEn, así como su utilidad para el cálculo del desempeño energético.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },
@@ -31,13 +29,39 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Identificación de los Indicadores de Desempeño Energético (IDEn)',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Resultados de la revisión energética',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Alcance del SGEn y límites para los IDEn',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Cuantificación de flujos de energía',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Variables relevantes y factores estáticos',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Recopilación de datos',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Establecimiento de los IDEn',
+            hash: 't_1_6',
           },
         ],
       },
@@ -45,13 +69,32 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Determinación de las Líneas de Base Energéticas (LBEn)',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Utilización de los IDEn y las LBEn para la gestión de la energía',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Seguimiento de planes, objetivos y metas energéticas',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Mantenimiento y ajuste de los IDEn y las LBEn',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Reporte del desempeño energético y del SGEn',
         desarrolloContenidos: true,
       },
     ],
@@ -97,32 +140,51 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Determinación de la Línea de Base Energética',
+      referencia:
+        'Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE. (2019). Implementación de un Sistema de Gestión de la Energía - Guía con base en la norma ISO 50001:2018. Segunda edición. ',
+      tipo: 'Documento en formato pdf',
+      link:
+        'https://www1.upme.gov.co/DemandaEnergetica/EEIColombia/Guia_estructura_ISO50001.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Consumo de energía',
+      significado: 'Cantidad de energía utilizada.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Factor estático',
+      significado:
+        'Factor identificado que no cambia rutinariamente e impacta el desempeño energético.',
+    },
+    {
+      termino: 'Matriz de consumos energéticos',
+      significado:
+        'Es una tabla con datos y gráficos que permite a la organización identificar de forma rápida los recursos energéticos que utiliza, y el consumo de energía total por cada energético. También resulta útil realizar una tabla de costos energéticos donde se visualice el peso porcentual de cada energético en los costos totales.',
+    },
+    {
+      termino: 'Variable relevante',
+      significado:
+        'Factor cuantificable que cambia rutinariamente e impacta el desempeño energético.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación. (2017). Guía Técnica Colombiana. Sistemas de gestión de la energía. Medición del desempeño energético usando líneas de base energética (LBE) e indicadores de desempeño energético (IDE). Principios generales y lineamientos.  (GTC-ISO 50006:2017).',
       link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación. (2019). Norma Técnica Colombiana. Sistemas de gestión de la energía. Requisitos con orientación para su uso. (NTC-ISO 50001:2019).',
+      link: '',
+    },
+    {
+      referencia:
+        'Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE. (2019). Implementación de un Sistema de Gestión de la Energía - Guía con base en la norma ISO 50001:2018. Segunda edición. ',
+      link:
+        'https://www1.upme.gov.co/DemandaEnergetica/EEIColombia/Guia_estructura_ISO50001.pdf',
     },
   ],
   creditos: [
