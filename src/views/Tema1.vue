@@ -23,7 +23,7 @@
     p(data-aos="fade-right") De acuerdo con la Guía Técnica Colombiana GTC-ISO 50006:2017 la información que brinda como resultado del proceso de revisión energética y que se utiliza para la identificación de los indicadores de desempeño energético y las líneas de base energética se resumen en la siguiente tabla:
 
 
-    .tabla-a.color-acento-botones.mb-5 
+    .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
       table
         caption Nota. Adaptado de Instituto Colombiano de Normas Técnicas y Certificación (2017).
         thead
@@ -139,7 +139,7 @@
     #t_1_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 1.2 Alcance del SGEn y límites para los IDEn
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-md-9.col-12
         p Para la definición de los límites para los IDEn se debe tener en cuenta inicialmente el alcance del SGEn definido durante la etapa de planificación. Por ejemplo, si en una organización se define que el alcance del SGEn es el consumo de electricidad para la sede principal, se deben centrar los esfuerzos en determinar los IDEn que permitan cuantificar y validar el desempeño energético sólo bajo este alcance. Una vez se tenga claro el alcance para los IDEn, se debe establecer los límites dentro del alcance para cada uno de los IDEn a desarrollar.
         p La Guía Técnica Colombiana GTC-ISO 50006:2017 establece tres niveles para la determinación de los límites de los IDEn:
@@ -148,7 +148,7 @@
           img(src='@/assets/curso/temas/tema1/tema1-02.svg', alt='')
 
 
-    .tabla-a.color-acento-botones.mb-5 
+    .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
       table
         caption Nota. Adaptado de Instituto Colombiano de Normas Técnicas y Certificación (2017).
         thead
@@ -204,7 +204,7 @@
 
     p(data-aos="fade-right") En general, para la determinación de los límites se debe tener en cuenta los siguientes aspectos:
     
-    .row.mt-5.mb-5.align-items-stretch
+    .row.mt-5.mb-5.align-items-stretch(data-aos="fade-right")
       .col-lg-4.col-md-12
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
@@ -227,15 +227,459 @@
             .p-4
               p Los equipos, procesos (y subprocesos), edificios, donde la organización ha identificado que se puede realizar la gestión de la energía.
 
+    Separador
+    #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 1.3 Cuantificación de flujos de energía
 
-            
+    p(data-aos="fade-right") Los flujos de energía por lo general se relacionan con diagramas de bloques (o cajas) interconectados entre sí de tal manera que se representa de forma visual y gráfica el flujo y el recorrido de la energía de entrada y los procesos donde se consume o transforma, incluyendo los productos resultantes para dicho proceso. 
 
-         
+    .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-right")
+      SlyderA(tipo="b")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p Adicionalmente, en este tipo de diagramas pueden incluir los equipos o instrumentos de medición y registro de las variables que influyen en el desempeño energético. Los recursos visuales más utilizados para la representación de los flujos de energía son los diagramas de bloques (o de vallas) y los mapas energéticos.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-06.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p Durante esta etapa para la identificación de los IDEn, una vez se hayan definidos los límites, se debe conocer los flujos de energía dentro de dicho límite. Es decir, se debe aislar de forma gráfica el equipo, proceso, instalación o sistema y analizar los flujos de energía que inciden en el desempeño energético y se debe identificar la información disponible y los recursos de medición y registro que pueden ser utilizados para hacer seguimiento a los IDEn. 
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-07.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p También, a través de esta actividad se pueden registrar las necesidades de medición para una futura compra de equipos u otro tipo de recursos que se requieran para hacer la gestión de la energía.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-08.png', alt='')
+        .row
+          .col-md-7.mb-4.mb-md-0
+            p En la siguiente figura se muestra un ejemplo de flujo de energía para el sistema de refrigeración de lácteos y carnes frías para un supermercado de tamaño mediano, en donde se ha definido que el alcance del sistema de gestión de la energía es la energía eléctrica consumida, y de acuerdo a los resultados de la revisión energética el sistema completo de refrigeración para lácteos y carnes frías es uno de los usos significativos de la energía. Para este caso la organización tiene planeado la determinación de un indicador de desempeño energético que permita monitorear, controlar y gestionar este USE, con lo cual el nivel para el límite de los IDEn corresponde al sistema. Las flechas azules corresponde al flujo de electricidad y las flechas de color verde corresponde al flujo del proceso de refrigeración. También se aprecia que la salida del sistema es obtener una temperatura constante de 3°C durante las 24 horas del día con el fin de que el producto se conserve, y que la organización cuenta con dos medidores de electricidad que facilita y se deben tener en cuenta para la recopilación de datos para el cálculo del IDEn.
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-09.png', alt='', @click="modal1=true")
+     
+    Separador
+    #t_1_4.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 1.4 Variables relevantes y factores estáticos
+
+    p(data-aos="fade-right") De acuerdo con las definiciones de la norma ISO 50001, una variable relevante es un factor que se puede cuantificar y que impacta de forma considerable el desempeño energético de un equipo, sistema, o proceso. Adicionalmente, una variable relevante como su nombre lo dice, cambia su valor de manera rutinaria. 
+
+    .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-down")
+      LineaTiempoC.color-acento-contenido(text-small)
+        .row(titulo="1")
+          .col-md-6.mb-4.mb-md-0
+            p PENDIENTE DEFINIR EL CONTENIDO "NO COINCIDE DISEÑO WEB Y DI"
+          .col-md-6
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='')
+
+
+    
+    p(data-aos="fade-right") La norma ISO 50001 sugiere el siguiente método para la identificación y cuantificación de las variables relevantes:
+
+    .row.mt-4.mb-5(data-aos="fade-left")
+      .col-12
+        span.h4.titulos-tema-1.px-5.py-2 Primer Paso:
+
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-md-9.col-12
+        p Observar gráficamente la relación entre el consumo de energía del total de la organización, de los USE (equipos, sistemas, procesos, edificios, etc.) teniendo en cuenta los límites definidos, y las variables potenciales que se considere podrían afectar el comportamiento energético. Lo anterior se puede lograr mediante el uso de gráficas de tendencias, en donde se grafique la tendencia del consumo de energía y a su vez se grafique la tendencia del comportamiento a través del tiempo de la variable potencial. Lo anterior permitirá identificar de forma rápida si existe en primera instancia una relación que se puede analizar con más detalle posteriormente. 
+      .col-md-3.col-12
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-10.png', alt='')
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-md-4.col-12
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-11.png', alt='')
+      .col-md-8.col-12
+        h4 Ejemplo:
+        p En una planta de beneficio de aves en la cual se realizó una auditoría energética que concluye que uno de los consumos significativos es la energía eléctrica con un aporte del 80% del total del consumo energético de la planta. En vista de lo anterior y ante los resultados presentados a la gerencia de la compañía por parte del tecnólogo en gestión eficiente de la energía, la alta dirección solicita que la definición de un indicador de desempeño energético (IDEn) para el consumo de electricidad total de la planta que tenga el alcance de nivel organizacional (es decir que el alcance es el total de la planta). De acuerdo a la revisión documental de los resultados de la revisión energética, se plantea inicialmente evaluar si la variable llamada kilos totales de producción influye en el comportamiento energético del consumo de electricidad del total de la planta, tomando como base la siguiente información:
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-md-10.col-12
+        .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
+          table
+            caption Nota. SENA (2022).
+            thead
+              tr
+                th Año
+                th Energía Total Planta [kWh]
+                th Kilos Totales de Producción
+            tbody
+              tr
+                td ene-21
+                td 1.377.634 
+                td  3.887.774 
+              tr
+                td feb-21
+                td 1.425.958 
+                td 3.805.694
+              tr
+                td mar-21
+                td 1.424.816
+                td 3.992.733
+              tr
+                td abr-21
+                td 1.586.562
+                td 4.488.033
+              tr
+                td may-21
+                td 1.537.503
+                td 4.350.180
+              tr
+                td jun-21
+                td 1.538.755
+                td 4.118.342
+              tr
+                td jul-21
+                td 1.568.499
+                td 4.344.984
+              tr
+                td ago-21
+                td 1.543.502
+                td 4.126.265
+    
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-md-3.col-12
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-12.png', alt='')
+      .col-md-9.col-12
+        p De acuerdo con la información anterior, se procede a realizar una gráfica de tendencia que permita ver el comportamiento de la energía total consumida (kWh) y los kilos totales de producción. La gráfica debe tener un eje principal que para este caso se definió como el consumo de energía total y un eje secundario para los kilos totales producidos. En el eje X se gráfica los meses asociados a cada valor de la tabla. Utilizando cualquier software u hoja de cálculo se puede obtener la siguiente gráfica:
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
+      .col-md-11.col-12
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-13.png', alt='')
+          figcaption Nota. SENA (2022).
+
+    p(data-aos="fade-right") Del gráfico anterior se puede observar que la tendencia de cada una de las figuras, se parecen entre sí. Es decir, en varios períodos cuando los kilos totales de producción aumentan, se presenta un aumento del consumo total de electricidad. Así mismo se observa que en algunos meses cuando los kilos totales de producción disminuyen, se presenta una disminución del consumo total de electricidad. De acuerdo con lo anterior, la variable kilos totales de producción es candidata a convertirse en variable relevante, sin embargo, se debe analizar con mayor detalle en los siguientes pasos. Cabe resaltar que también puede existir el caso donde si la variable aumenta de valor, el consumo de energía disminuye de valor y viceversa. Si se presenta esta situación, también se debe tener en cuenta como potencial variable relevante.
+
+
+    .row.mt-4.mb-5.mt-5(data-aos="fade-left")
+      .col-12
+        span.h4.titulos-tema-1.px-5.py-2 Segundo Paso:
+        
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-md-9.col-12
+        p Una vez sean identificadas las variables potenciales que pueden convertirse en variables relevantes, se sugiere determinar cuantitativamente el grado de correlación que tiene cada una de ellas con el consumo de energía dependiendo de los límites que se pretenden analizar, para posteriormente definir los IDE. El objetivo principal es confirmar si efectivamente dicha variable identificada se puede considerar como una variable relevante. La herramienta más utilizada para realizar este análisis es la elaboración de un diagrama X-Y simple o también llamados gráficos de dispersión (llamados así en las hojas de cálculo) en donde los valores del eje Y se pueden graficar los consumos de energía y para los valores del eje X se pueden graficar los kilos totales de producción. Así mismo esta herramienta permite la elaboración de una gráfica lineal que permite observar si los puntos están relacionados y teniendo en cuenta el valor del coeficiente de determinación “R<sup>2</sup>” se puede determinar el grado de relación entre los puntos y que tan lineal es el comportamiento. Mientras más cercano a 1 sea el valor del coeficiente de correlación, más significativa va a ser la variable en análisis. 
+      .col-md-3.col-12
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-14.png', alt='')
+
+
+    p(data-aos="fade-right") A continuación, se muestra la gráfica resultante de acuerdo con los datos analizados en el primer paso:
+ 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
+      .col-md-10.col-12
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-15.png', alt='')
+          figcaption Nota. SENA (2022).
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-md-4.col-12
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-16.png', alt='')
+      .col-md-8.col-12
+        p De la gráfica anterior se puede observar que el valor del coeficiente de determinación para el ejemplo es de 0,7884 con lo cual se puede afirmar que es una variable significativa en un grado medio, por lo tanto, se podría tomar los kilos totales de producción como una variable relevante. Cabe recordar que mientras más cercano a uno (1) sea el valor del coeficiente de determinación R<sup>2</sup>, la variable se vuelve relevante en un grado mayor, y mientras el valor del coeficiente de determinación R<sup>2</sup> se acerca más a cero (0) la variable se convierte en irrelevante para el desempeño energético.
+        p La importancia de la identificación de las variables relevantes es que por medio de ellas podremos construir varios de los indicadores de desempeño energético (IDEn) y adicionalmente dan una pauta para determinar de primera mano las variables a las que debo realizar controles operacionales para el sistema de gestión de la energía, debido a su influencia en el desempeño energético.
+
+
+    .row.mt-4.mb-5.mt-5(data-aos="fade-left")
+      .col-12
+        span.h4.titulos-tema-1.px-5.py-2 Factores estáticos
+
+    p(data-aos="fade-left") Los factores estáticos son aquellos factores que impactan significativamente en el desempeño energético y no cambian su valor de forma rutinaria. Para la identificación de estos factores se puede utilizar el paso 1 de la metodología para la identificación de variables relevantes. Es importante identificar en la gráfica que en la mayoría del tiempo el valor de factor estático no cambie significativamente, pero en el periodo en que se presente una variación significativa, esta se refleje en el consumo de energía.
+  
+    .tarjeta.tarjeta--azul.p-4.mb-5.mt-5
+      SlyderA(tipo="b")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Algunos ejemplos de factor estático son:  
+            ul.lista-ul.mb-2
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Valor del área o superficie de un edificio.
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Cantidad de luminarias instaladas.
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Consumo de energía de una carga significativa que permanezca siempre encendida con un valor constante.
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Cantidad de motores eléctricos instalados.
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Cantidad de calderas instaladas.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-17.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Otros  ejemplos de factor estático son:
+            ul.lista-ul.mb-2
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Longitud de tubería de distribución de vapor.
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Cantidad de productos de una línea de producción que fabrica la empresa de forma constante.
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Potencia instalada de equipos consumidores de energía.
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Nivel de ocupación constante en edificios.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-18.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 A manera de ejemplo
+            p En un banco que funciona en varios edificios se obtuvo como resultado de una auditoría energética que debido al consumo de electricidad en la iluminación del edificio No. 1 se considera como uso significativo de la energía. La empresa ha determinado que el límite para el control de este USE es de nivel Sistema, y adicionalmente considera que se puede evaluar la influencia del área iluminada en el consumo de energía. De acuerdo con lo anterior, se procede a realizar el primer paso para determinar la relación entre el consumo dentro del límite definido y la superficie iluminada del edificio en metros cuadrados, obteniendo los siguientes resultados:
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-19.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 En la gráfica de tendencias
+            p Se puede observar que los metros cuadrados iluminados normalmente no cambian su valor ya que para este caso la superficie es constante. Sin embargo, en el mes de junio se observa que se aumentó la superficie iluminada probablemente por una remodelación, lo cual tuvo como consecuencia el aumento considerable del consumo en la iluminación del edificio No. 1. Como la superficie iluminada no cambia de valor mes a mes, y las remodelaciones no son constantes, se puede considerar que la superficie iluminada del edificio 1 es un factor estático.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-20.png', alt='')
+
+
+    Separador
+    #t_1_5.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 1.5 Recopilación de datos
+
+    p(data-aos="flip-left") Para cada indicador de desempeño energético (IDEn) y línea de base energética (LBEn) a implementar, la organización debe determinar cuáles son los datos que se requieren recolectar y cuáles son las capacidades actuales (medidores, registros y demás que se encuentran en la actualidad) para poder construir el IDEn y poder hacer medición y registro del mismo. 
+
+    h1 ###PENDIENTE SLIDERS###
+
+    Separador
+    #t_1_6.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 1.6 Establecimiento de los IDEn
+
+    p(data-aos="flip-left") Para el establecimiento de los IDEn se debe revisar la siguiente información:
+
+    
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-md-8.col-12
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-angle-right 
+            | Resultados de la revisión energética.
+          li.mb-0
+            i.fas.fa-angle-right 
+            | Caracterización de los usos y consumo de la energía.
+          li.mb-0
+            i.fas.fa-angle-right 
+            | Identificación y caracterización de los usos significativos de la energía (USE).
+          li.mb-0
+            i.fas.fa-angle-right 
+            | Objetivos y metas energéticas.
+          li.mb-0
+            i.fas.fa-angle-right 
+            | Acciones de mejora para el desempeño energético.
+      .col-md-4.col-12
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-21.png', alt='')
+
+
+    .tarjeta.tarjeta--azul.p-4.mb-5.mt-5
+      SlyderA(tipo="b")
+        .row
+          .col-md-4.mb-4.mb-md-0
+            h4 Los IDEn se debe establecer de tal forma que sus valores permitan:
+            ul.lista-ul.mb-2
+              li.mb-0
+                i.fas.fa-angle-right 
+                | La definición de metas para el desempeño energético de los equipos, procesos, sistemas, edificios y demás definidos por la organización dentro del alcance del sistema de gestión de la energía.
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Ser comparados periódicamente de tal forma que la organización pueda evidenciar los cambios en el desempeño energético y el cumplimiento de las metas propuestas.
+          .col-md-8
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-22.png', alt='')
+        .row
+          .col-md-8.mb-4.mb-md-0
+            p A continuación se describen algunos conceptos que se deben tener en cuenta a la hora de establecer los IDEN:
+            p - Determinación de los usuarios de los indicadores de desempeño energético (IDEn):
+            p En las organizaciones existen varios niveles como por ejemplo gerencial, administrativo, operacional, mantenimiento, etc, por lo tanto se debe realizar la identificación del personal que va a utilizar los resultados de los IDEn con el fin de determinar sus necesidades y asegurar que la información que brinda cada IDEn sea entendible por el usuario.
+            p Por ejemplo, probablemente a la alta dirección le interese establecer un IDEn que permita relacionar el consumo total de la planta o empresa con la producción como medida del nivel de competitividad, pero poco le puede interesar un IDEn que relacione el consumo de energía de un motor con respecto al número de paradas no programadas de planta. Este último IDEn a pesar de no ser de interés para la alta dirección, es de vital importancia para el área de mantenimiento de la empresa.
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-23.png', alt='')
+        .row
+          .col-md-4.mb-4.mb-md-0
+            ul.lista-ul.mb-2
+              li.mb-0
+                i.fas.fa-angle-right 
+                | #[strong Alta dirección:] generalmente los IDEn de interés para este tipo de usuarios son los que involucren el desempeño de toda la organización en términos de competitividad y disminución de costos totales, más no de sectores específicos.
+              li.mb-0
+                i.fas.fa-angle-right 
+                | #[strong Gerentes de planta o área específica:] generalmente los IDEn de interés para este tipo de usuarios son los mismos de la alta dirección, sumado a los que involucran el desempeño energético de los usos significativos de la energía, los niveles de producción y mantenimiento.
+              li.mb-0
+                i.fas.fa-angle-right 
+                | #[strong Personal de mantenimiento y operaciones:] los IDEn de interés para este tipo de usuarios son los relacionados sólo al área específica que tienen a su cargo.
+          .col-md-8
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-24.png', alt='')
+
+
+
+    .row.mt-4.mb-5.mt-5(data-aos="fade-left")
+      .col-12
+        span.h4.titulos-tema-1.px-5.py-2 Características específicas de los indicadores de desempeño energético (IDEn)
+
+    p(data-aos="fade-left") La norma ISO 50001 establece los siguientes tipos de IDEn y los casos en donde se debería usar cada uno de la siguiente manera:
+
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-md-12.col-12
+        .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
+          table
+            caption Nota. Adaptado Instituto Colombiano de Normas Técnicas y Certificación (2017) y Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE. (2019).
+            thead
+              tr
+                th Tipo de indicador de desempeño energético
+                th Utilidad
+                th Ejemplo
+                th Notas acerca del tipo de indicador
+            tbody
+              tr
+                td Medida del valor energético.
+                td 
+                  ul.lista-ul.mb-2
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Medida de la reducción en el consumo de la energía.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Medida de reducción de costos energéticos.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Se puede utilizar en edificios de oficinas, centros comerciales y grandes superficies donde la temperatura exterior no varíe significativamente, o se requiera comparar con valores de consumo con periodos anteriores con las mismas condiciones climáticas.
+                td 
+                  ul.lista-ul.mb-2
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Consumo de energía mensual en caldera No. 1. [kWh/mes].
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Consumo de electricidad mensual total de la planta. [kWh/mes].
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Consumo de biomasa por mes [ton/mes].
+                td 
+                  ul.lista-ul.mb-2
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | No permite identificar la eficiencia energética.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Se pueden presentar errores en la interpretación al no tener en cuenta la influencia de las variables relevantes y los factores estáticos.
+              tr
+                td Cociente de valores medidos.
+                td 
+                  ul.lista-ul.mb-2
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Medición de la eficiencia energética de equipos, sistemas o procesos que se relacionan con una única variable relevante.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Comparación entre varias instalaciones. Por ejemplo, cuando una organización tiene varias oficinas en una misma ciudad o en diferentes ciudades donde se requiera comparar el desempeño.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Cumplimiento de requisitos legales.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Es el más utilizado a nivel industrial y comercial.
+                td
+                  ul.lista-ul.mb-2
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | kWh / tonelada de producto.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      |  Gigajulios / unidad de producto.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Consumo de iluminación kWh / metro cuadrado.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Eficiencia de una caldera. [%]
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Consumo de energía / ocupación.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Consumo de energía / nivel de carga.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Galones de combustible / kilómetro recorrido. 
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Consumo kWh / unidades vendidas.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | kWh / número de producto.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Cantidad de energía en refrigeración / cantidad de producto almacenado.
+                td
+                  ul.lista-ul.mb-2
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Puede presentar errores de interpretación cuando una empresa produce gran variedad de productos de diferentes características.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Se requiere que la variable relevante tenga una correlación alta con el consumo de energía.
+              tr 
+                td Modelo estadístico.
+                td 
+                  ul.lista-ul.mb-2
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Sistemas, equipos o procesos con más de una variable relevante.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Elaboración de modelos para predicción de consumos futuros.
+                td 
+                  p Por lo general se utiliza el modelo de regresión lineal con múltiples variables:
+                  p E = m<sub>1</sub> * V<sub>1</sub> + m<sub>2</sub> * V<sub>2</sub>
+                  p +...+m<sub>n</sub> * V<sub>n</sub> + E<sub>o</sub>
+                  p donde 
+                  p E = consumo de energía 
+                  p m<sub>n</sub> = constantes del modelo 
+                  p E<sub>o</sub> = constante
+                  p V<sub>n</sub> = variable significativa
+                td
+                  ul.lista-ul.mb-2
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | El cálculo tiene mayor grado de complejidad que los tipos de IDEn anteriores.
+                    li.mb-0
+                      i.fas.fa-angle-right 
+                      | Se requiere que las variables relevantes tengan una correlación alta con el consumo de energía.
 
 
 
 
 
+
+
+
+    ModalA(:abrir-modal.sync="modal1")
+      .row.align-items-center
+        .col-md-10.mb-4.mb-md-0
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-09.png', alt='')
 
 </template>
 
@@ -245,6 +689,7 @@ export default {
   components: {},
   data: () => ({
     // variables de vue
+    modal1: false,
   }),
   mounted() {
     this.$nextTick(() => {
