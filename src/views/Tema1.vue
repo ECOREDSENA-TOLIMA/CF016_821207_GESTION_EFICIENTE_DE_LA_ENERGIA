@@ -12,7 +12,10 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-01.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p Los indicadores de desempeño energético (IDEn) son variables determinadas por la organización que se utilizan para cuantificar y determinar el desempeño energético dentro del sistema de gestión de la energía. Los IDEn se deben establecer con base a los resultados obtenidos en la revisión energética, y por lo general se asocian para cada USE. Para la determinación de los IDEn es necesario tener en cuenta que una vez sean definidos, posteriormente se deben comparar sus valores con respecto a una línea de base energética (identificada en la siguiente etapa) con el fin de evaluar si las acciones de mejora del desempeño implementadas por el sistema de gestión de la energía han sido efectivas. Por lo tanto, es de vital importancia que en el momento de definir cada IDEn se cuente con registros de información histórica para poder calcular la línea de base; de lo contrario, el IDEn creado por la organización no tendrá punto de comparación. 
+        p Los indicadores de desempeño energético (IDEn) son variables determinadas por la organización que se utilizan para cuantificar y determinar el desempeño energético dentro del sistema de gestión de la energía. 
+        br
+        br
+        | Los IDEn se deben establecer con base a los resultados obtenidos en la revisión energética, y por lo general se asocian para cada USE. Para la determinación de los IDEn es necesario tener en cuenta que una vez sean definidos, posteriormente se deben comparar sus valores con respecto a una línea de base energética (identificada en la siguiente etapa) con el fin de evaluar si las acciones de mejora del desempeño implementadas por el sistema de gestión de la energía han sido efectivas. Por lo tanto, es de vital importancia que en el momento de definir cada IDEn se cuente con registros de información histórica para poder calcular la línea de base; de lo contrario, el IDEn creado por la organización no tendrá punto de comparación. 
 
     p.mb-5(data-aos="flip-right") A continuación, se muestra la información más relevante que se debe tener en cuenta para definir los IDEn:
 
@@ -235,27 +238,28 @@
 
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
-        .row
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             p Adicionalmente, en este tipo de diagramas pueden incluir los equipos o instrumentos de medición y registro de las variables que influyen en el desempeño energético. Los recursos visuales más utilizados para la representación de los flujos de energía son los diagramas de bloques (o de vallas) y los mapas energéticos.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-06.png', alt='')
-        .row
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             p Durante esta etapa para la identificación de los IDEn, una vez se hayan definidos los límites, se debe conocer los flujos de energía dentro de dicho límite. Es decir, se debe aislar de forma gráfica el equipo, proceso, instalación o sistema y analizar los flujos de energía que inciden en el desempeño energético y se debe identificar la información disponible y los recursos de medición y registro que pueden ser utilizados para hacer seguimiento a los IDEn. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-07.png', alt='')
-        .row
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             p También, a través de esta actividad se pueden registrar las necesidades de medición para una futura compra de equipos u otro tipo de recursos que se requieran para hacer la gestión de la energía.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-08.png', alt='')
-        .row
+        .row.justify-content-center.align-items-center
           .col-md-7.mb-4.mb-md-0
-            p En la siguiente figura se muestra un ejemplo de flujo de energía para el sistema de refrigeración de lácteos y carnes frías para un supermercado de tamaño mediano, en donde se ha definido que el alcance del sistema de gestión de la energía es la energía eléctrica consumida, y de acuerdo a los resultados de la revisión energética el sistema completo de refrigeración para lácteos y carnes frías es uno de los usos significativos de la energía. Para este caso la organización tiene planeado la determinación de un indicador de desempeño energético que permita monitorear, controlar y gestionar este USE, con lo cual el nivel para el límite de los IDEn corresponde al sistema. Las flechas azules corresponde al flujo de electricidad y las flechas de color verde corresponde al flujo del proceso de refrigeración. También se aprecia que la salida del sistema es obtener una temperatura constante de 3°C durante las 24 horas del día con el fin de que el producto se conserve, y que la organización cuenta con dos medidores de electricidad que facilita y se deben tener en cuenta para la recopilación de datos para el cálculo del IDEn.
+            p En la siguiente figura se muestra un ejemplo de flujo de energía para el sistema de refrigeración de lácteos y carnes frías para un supermercado de tamaño mediano, en donde se ha definido que el alcance del sistema de gestión de la energía es la energía eléctrica consumida, y de acuerdo a los resultados de la revisión energética el sistema completo de refrigeración para lácteos y carnes frías es uno de los usos significativos de la energía. Para este caso la organización tiene planeado la determinación de un indicador de desempeño energético que permita monitorear, controlar y gestionar este USE, con lo cual el nivel para el límite de los IDEn corresponde al sistema. 
+            p Las flechas azules corresponde al flujo de electricidad y las flechas de color verde corresponde al flujo del proceso de refrigeración. También se aprecia que la salida del sistema es obtener una temperatura constante de 3°C durante las 24 horas del día con el fin de que el producto se conserve, y que la organización cuenta con dos medidores de electricidad que facilita y se deben tener en cuenta para la recopilación de datos para el cálculo del IDEn.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/tema1-09.png', alt='', @click="modal1=true")
@@ -445,7 +449,7 @@
   
     .tarjeta.tarjeta--azul.p-4.mb-5.mt-5
       SlyderA(tipo="b")
-        .row
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Algunos ejemplos de factor estático son:  
             ul.lista-ul.mb-2
@@ -467,7 +471,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-17.png', alt='')
-        .row
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Otros  ejemplos de factor estático son:
             ul.lista-ul.mb-2
@@ -486,14 +490,15 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-18.png', alt='')
-        .row
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 A manera de ejemplo
-            p En un banco que funciona en varios edificios se obtuvo como resultado de una auditoría energética que debido al consumo de electricidad en la iluminación del edificio No. 1 se considera como uso significativo de la energía. La empresa ha determinado que el límite para el control de este USE es de nivel Sistema, y adicionalmente considera que se puede evaluar la influencia del área iluminada en el consumo de energía. De acuerdo con lo anterior, se procede a realizar el primer paso para determinar la relación entre el consumo dentro del límite definido y la superficie iluminada del edificio en metros cuadrados, obteniendo los siguientes resultados:
+            p En un banco que funciona en varios edificios se obtuvo como resultado de una auditoría energética que debido al consumo de electricidad en la iluminación del edificio No. 1 se considera como uso significativo de la energía. La empresa ha determinado que el límite para el control de este USE es de nivel Sistema, y adicionalmente considera que se puede evaluar la influencia del área iluminada en el consumo de energía. 
+            p De acuerdo con lo anterior, se procede a realizar el primer paso para determinar la relación entre el consumo dentro del límite definido y la superficie iluminada del edificio en metros cuadrados, obteniendo los siguientes resultados:
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-19.png', alt='')
-        .row
+        .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 En la gráfica de tendencias
             p Se puede observar que los metros cuadrados iluminados normalmente no cambian su valor ya que para este caso la superficie es constante. Sin embargo, en el mes de junio se observa que se aumentó la superficie iluminada probablemente por una remodelación, lo cual tuvo como consecuencia el aumento considerable del consumo en la iluminación del edificio No. 1. Como la superficie iluminada no cambia de valor mes a mes, y las remodelaciones no son constantes, se puede considerar que la superficie iluminada del edificio 1 es un factor estático.
@@ -542,7 +547,7 @@
 
     .tarjeta.tarjeta--azul.p-4.mb-5.mt-5
       SlyderA(tipo="b")
-        .row
+        .row.justify-content-center.align-items-center
           .col-md-4.mb-4.mb-md-0
             h4 Los IDEn se debe establecer de tal forma que sus valores permitan:
             ul.lista-ul.mb-2
@@ -555,17 +560,17 @@
           .col-md-8
             figure
               img(src='@/assets/curso/temas/tema1/tema1-22.png', alt='')
-        .row
+        .row.justify-content-center.align-items-center
           .col-md-8.mb-4.mb-md-0
-            p A continuación se describen algunos conceptos que se deben tener en cuenta a la hora de establecer los IDEN:
+            p A continuación se describen algunos conceptos que se deben tener en cuenta a la hora de establecer los IDEn:
             p - Determinación de los usuarios de los indicadores de desempeño energético (IDEn):
             p En las organizaciones existen varios niveles como por ejemplo gerencial, administrativo, operacional, mantenimiento, etc, por lo tanto se debe realizar la identificación del personal que va a utilizar los resultados de los IDEn con el fin de determinar sus necesidades y asegurar que la información que brinda cada IDEn sea entendible por el usuario.
             p Por ejemplo, probablemente a la alta dirección le interese establecer un IDEn que permita relacionar el consumo total de la planta o empresa con la producción como medida del nivel de competitividad, pero poco le puede interesar un IDEn que relacione el consumo de energía de un motor con respecto al número de paradas no programadas de planta. Este último IDEn a pesar de no ser de interés para la alta dirección, es de vital importancia para el área de mantenimiento de la empresa.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema1/tema1-23.png', alt='')
-        .row
-          .col-md-4.mb-4.mb-md-0
+        .row.justify-content-center.align-items-center
+          .col-md-5.mb-4.mb-md-0
             ul.lista-ul.mb-2
               li.mb-0
                 i.fas.fa-angle-right 
@@ -576,7 +581,7 @@
               li.mb-0
                 i.fas.fa-angle-right 
                 | #[strong Personal de mantenimiento y operaciones:] los IDEn de interés para este tipo de usuarios son los relacionados sólo al área específica que tienen a su cargo.
-          .col-md-8
+          .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/tema1-24.png', alt='')
 
