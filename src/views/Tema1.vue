@@ -508,7 +508,7 @@
 
     p(data-aos="flip-left") Para cada indicador de desempeño energético (IDEn) y línea de base energética (LBEn) a implementar, la organización debe determinar cuáles son los datos que se requieren recolectar y cuáles son las capacidades actuales (medidores, registros y demás que se encuentran en la actualidad) para poder construir el IDEn y poder hacer medición y registro del mismo. 
 
-    h1 ###PENDIENTE SLIDERS###
+    h1 ###PENDIENTE SLIDERS###  (sin diseño)
 
     Separador
     #t_1_6.titulo-segundo.color-acento-botones(data-aos="fade-right")
