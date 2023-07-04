@@ -253,7 +253,7 @@ export default {
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Davison Gaitán Escobar',
+          nombre: 'Oscar Daniel Espitia Marin',
           cargo: 'Desarrollador Fullstack',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
