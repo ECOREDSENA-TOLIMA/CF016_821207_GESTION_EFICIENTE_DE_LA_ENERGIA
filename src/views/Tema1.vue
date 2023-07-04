@@ -269,14 +269,63 @@
     .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-down")
       LineaTiempoC.color-acento-contenido(text-small)
         .row(titulo="1")
-          .col-md-6.mb-4.mb-md-0
-            p PENDIENTE DEFINIR EL CONTENIDO "NO COINCIDE DISEÑO WEB Y DI"
-          .col-md-6
+          .col-md-4.mb-4.mb-md-0
             figure
-              img(src='@/assets/template/img-placeholder.svg', alt='')
+              img(src='@/assets/curso/temas/tema1/tema1-25.png', alt='')
+          .col-md-8
+            p De forma similar, un factor estático, es un factor  que impacta de forma considerable el desempeño energético de un equipo, sistema, o proceso, pero su diferencia principal es que su valor se mantiene constante o no cambia de manera rutinaria. A continuación se muestran las características de cada uno de ellos:
+        .row(titulo="2")
+          .col-md-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-26.png', alt='')
+          .col-md-8
+            h4 a. Variables relevantes.
+            p Para la determinación de las variables relevantes se utilizan inicialmente los resultados de la revisión energética. Posterior a la identificación de los usos significativos de la energía (USE) y la determinación de los límites para los indicadores de desempeño energético (IDEn) de la organización, esta debe definir y cuantificar las variables relevantes en cada uno de los límites de los IDEn. El proceso para la definición de las variables relevantes, inicia con la identificación de todas las variables que podrían afectar el desempeño energético dentro del límite del IDEn definido.
+        .row(titulo="3")
+          .col-md-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-27.png', alt='')
+          .col-md-8
+            p En este proceso de identificación se van a encontrar muchas variables que pueden o no afectar el desempeño energético. Las fuentes de información para la identificación inicial de las variables que afectan el desempeño son (entre otras):
+            ul.lista-ul.mb-2
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Resultados de la revisión energética o auditorías energéticas.
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Manuales de operación de equipos.
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Instructivos y manuales de operación y mantenimiento de equipos o procesos.
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Recomendaciones de los fabricantes de equipos.
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Entrevistas con operadores, supervisores y coordinadores de procesos y mantenimiento de equipos.
+        .row(titulo="4")
+          .col-md-4.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema1/tema1-28.png', alt='')
+          .col-md-8
+            p De acuerdo con Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019), generalmente se pueden encontrar las siguientes variables relevantes en el sector industrial:
+            ul.lista-ul.mb-2
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Nivel de producción (por ejemplo número de piezas, toneladas de producto, etc.).
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Nivel de ocupación (por ejemplo cantidad de personas en un edificio de oficinas, centro comercial, supermercado, etc.).
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Condiciones operacionales de procesos o equipos (por ejemplo temperatura, presión, velocidad, revoluciones por minuto, relación aire/combustible, cantidad de paradas, regímenes de operación, cantidad de purgas al día, planeación de la producción, nivel de desperdicio, mermas, etc.).
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Condiciones climáticas (temperatura ambiente, humedad relativa, nivel de polución, grados día de temperatura, etc.).
+              li.mb-0
+                i.fas.fa-angle-right 
+                | Condiciones de mantenimiento (frecuencia o periodo de limpieza, cantidad de ajustes, número de mantenimientos preventivos, etc.).
 
-
-    
     p(data-aos="fade-right") La norma ISO 50001 sugiere el siguiente método para la identificación y cuantificación de las variables relevantes:
 
     .row.mt-4.mb-5(data-aos="fade-left")
