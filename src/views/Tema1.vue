@@ -17,7 +17,7 @@
         br
         | Los IDEn se deben establecer con base a los resultados obtenidos en la revisión energética, y por lo general se asocian para cada USE. Para la determinación de los IDEn es necesario tener en cuenta que una vez sean definidos, posteriormente se deben comparar sus valores con respecto a una línea de base energética (identificada en la siguiente etapa) con el fin de evaluar si las acciones de mejora del desempeño implementadas por el sistema de gestión de la energía han sido efectivas. Por lo tanto, es de vital importancia que en el momento de definir cada IDEn se cuente con registros de información histórica para poder calcular la línea de base; de lo contrario, el IDEn creado por la organización no tendrá punto de comparación. 
 
-    p.mb-5(data-aos="flip-right") A continuación, se muestra la información más relevante que se debe tener en cuenta para definir los IDEn:
+    p.mb-4(data-aos="flip-right") A continuación, se muestra la información más relevante que se debe tener en cuenta para definir los IDEn:
 
     Separador
     #t_1_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -26,7 +26,7 @@
     p(data-aos="fade-right") De acuerdo con la Guía Técnica Colombiana GTC-ISO 50006:2017 la información que brinda como resultado del proceso de revisión energética y que se utiliza para la identificación de los indicadores de desempeño energético y las líneas de base energética se resumen en la siguiente tabla:
 
 
-    .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
+    .tabla-a.color-acento-botones.mb-4(data-aos="fade-right")
       table
         caption Nota. Adaptado de Instituto Colombiano de Normas Técnicas y Certificación (2017).
         thead
@@ -142,7 +142,7 @@
     #t_1_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 1.2 Alcance del SGEn y límites para los IDEn
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-md-9.col-12
         p Para la definición de los límites para los IDEn se debe tener en cuenta inicialmente el alcance del SGEn definido durante la etapa de planificación. Por ejemplo, si en una organización se define que el alcance del SGEn es el consumo de electricidad para la sede principal, se deben centrar los esfuerzos en determinar los IDEn que permitan cuantificar y validar el desempeño energético sólo bajo este alcance. Una vez se tenga claro el alcance para los IDEn, se debe establecer los límites dentro del alcance para cada uno de los IDEn a desarrollar.
         p La Guía Técnica Colombiana GTC-ISO 50006:2017 establece tres niveles para la determinación de los límites de los IDEn:
@@ -207,7 +207,7 @@
 
     p(data-aos="fade-right") En general, para la determinación de los límites se debe tener en cuenta los siguientes aspectos:
     
-    .row.mt-5.mb-5.align-items-stretch(data-aos="fade-right")
+    .row.mt-5.mb-4.align-items-stretch(data-aos="fade-right")
       .col-lg-4.col-md-12
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
@@ -236,7 +236,7 @@
 
     p(data-aos="fade-right") Los flujos de energía por lo general se relacionan con diagramas de bloques (o cajas) interconectados entre sí de tal manera que se representa de forma visual y gráfica el flujo y el recorrido de la energía de entrada y los procesos donde se consume o transforma, incluyendo los productos resultantes para dicho proceso. 
 
-    .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-right")
+    .tarjeta.tarjeta--azul.p-4.mb-4(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -513,7 +513,64 @@
 
     p(data-aos="flip-left") Para cada indicador de desempeño energético (IDEn) y línea de base energética (LBEn) a implementar, la organización debe determinar cuáles son los datos que se requieren recolectar y cuáles son las capacidades actuales (medidores, registros y demás que se encuentran en la actualidad) para poder construir el IDEn y poder hacer medición y registro del mismo. 
 
-    h1 ###PENDIENTE SLIDERS###  (sin diseño)
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="flip-right")
+      .row.justify-content-center.align-items-center(titulo="Necesidades de medida y registro")
+        .col-md-7.mb-4.mb-md-0
+          p ● Este mismo ejercicio servirá para identificar las necesidades de medida y registro que necesita la empresa ya sea porque no existen equipos de medición, o porque los equipos de medición existentes no poseen la tecnología de comunicaciones que permite de forma automática la recolección de la información.
+        .col-md-5
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-31.png', alt='')
+      .row.justify-content-center.align-items-center(titulo="Autonomía de definir")
+        .col-md-7.mb-4.mb-md-0
+          p ● La organización tiene la autonomía de definir cómo se realizará la recopilación de los datos y si compra medidores o implementa redes de comunicación en una posterior etapa y definirlo como una de las metas dentro del sistema de gestión de la energía. También se debe tener en cuenta dentro de la recopilación de datos, la determinación de la forma en que se va a recolectar la información de las variables relevantes y factores estáticos definidos por la organización.
+        .col-md-5
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-32.png', alt='')
+      .row.justify-content-center.align-items-center(titulo="Planificación para la recopilación de datos")
+        .col-md-7.mb-4.mb-md-0
+          p ● Cabe mencionar que la recopilación de datos hace parte de la planificación para la recopilación de datos de la energía como requisito de la norma ISO 50001 explicado en el numeral 1.6. Recopilación de datos de la energía del Componente Formativo Planificación y Mejora Continua del SGEn, por lo tanto, para cada uno de los datos identificados por la organización que deben ser recolectados, deben especificar lo siguiente: 
+        .col-md-5
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-33.png', alt='')
+      .row.justify-content-center.align-items-center(titulo="Datos especificos")
+        .col-md-7.mb-4.mb-md-0
+          p.mb-0 - Nombre y descripción del dato a recolectar. 
+          p.mb-0 -Fuente de información o lugar donde se recolecta la información. 
+          p.mb-0 -Frecuencia de recolección (diaria, semanal, mensual). 
+          p.mb-0 -Lugar donde se guardará la información registrada (base de datos, archivo en intranet, etc.). 
+          p.mb-0 -Responsable de la recolección y registro. 
+          p -¿Para qué se va a usar el dato recolectado? 
+        .col-md-5
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-34.png', alt='')
+      .row.justify-content-center.align-items-center(titulo="Retos de las organizaciones frente a la recopilación de datos")
+        .col-md-7.mb-4.mb-md-0
+          p ● Las empresas y organizaciones generalmente se enfrentan a los siguientes escenarios donde se definen una serie de retos que normalmente se convierten en oportunidades:
+          p Falta de datos en tiempo real por parte de las empresas comercializadoras de energía.
+        .col-md-5
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-35.png', alt='')
+      .row.justify-content-center.align-items-center(titulo="Empresas pequeñas")
+        .col-md-7.mb-4.mb-md-0
+          p ● En las empresas pequeñas normalmente el consumo de la energía se registra a través de la factura de energía que llega posterior al mes de consumo registrado. Frente a esta problemática, se puede consultar con los comercializadores de energía la posibilidad de instalar un medidor con comunicaciones o también que la propia organización adquiera un medidor y lo instale en la frontera donde se presta el servicio cumpliendo con la normativa.
+        .col-md-5
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-36.png', alt='')
+      .row.justify-content-center.align-items-center(titulo="Falta de datos para las variables relevantes")
+        .col-md-7.mb-4.mb-md-0
+          p ● Falta de datos para las variables relevantes: se sugiere evaluar la adquisición de sensores que permitan medir y registrar los datos, en lugar de depender de mediciones temporales con equipos portátiles durante la auditoría energética. 
+          p La falta de datos de consumo energético interno puede resolverse mediante la adquisición e instalación de submedidores para subdividir el consumo por áreas y equipos dentro de la organización. Esto permite obtener información más precisa y relevante sobre los usos significativos de la energía. 
+        .col-md-5
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-37.png', alt='')
+      .row.justify-content-center.align-items-center(titulo="La calidad de los datos")
+        .col-md-7.mb-4.mb-md-0
+          p ● La calidad de los datos es crucial para tomar decisiones acertadas. Para garantizar precisión, las organizaciones deben implementar planes de mantenimiento, calibración y verificación de equipos de medida. Se puede ahorrar costos calibrando un equipo como referencia para verificar otros equipos similares internamente.
+        .col-md-5
+          figure
+            img(src='@/assets/curso/temas/tema1/tema1-38.png', alt='')
+
+
 
     Separador
     #t_1_6.titulo-segundo.color-acento-botones(data-aos="fade-right")

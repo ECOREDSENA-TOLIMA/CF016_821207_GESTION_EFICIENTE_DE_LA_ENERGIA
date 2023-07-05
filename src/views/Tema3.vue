@@ -118,7 +118,7 @@
     .row.mb-4(data-aos="fade-down")
       .col-12
         h4 Cambio porcentual:
-        p mediante este enfoque se calcula el porcentaje de variación entre el IDEn y la LBEn de la siguiente manera:
+        p Mediante este enfoque se calcula el porcentaje de variación entre el IDEn y la LBEn de la siguiente manera:
       .col-12
         div
           mfrac
@@ -167,7 +167,7 @@
     .row.mb-4(data-aos="fade-down")
       .col-12
         h4 Razón actual:
-        p mediante este enfoque se calcula el desempeño energético en función de la siguiente relación:
+        p Mediante este enfoque se calcula el desempeño energético en función de la siguiente relación:
       .col-12
         div
           mfrac
@@ -275,7 +275,48 @@
       
     p(data-aos="flip-left") Observe el siguiente recurso el cual le dará información detallada acerca del mantenimiento y ajuste de los IDEn y las LBEn.
 
-    h1 ###PENDIENTE SLIDERS### (sin diseño)
+    .tarjeta.tarjeta--gris.p-4.mb-5.mt-5(data-aos="flip-down")
+      LineaTiempoC.color-acento-contenido(text-small)
+        .row.justify-content-around.align-items-center(titulo="1")
+          .col-md-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-11.png', alt='')
+          .col-md-7.mb-4.mb-md-0
+            p En muchas ocasiones, cuando por primera vez se determinan los indicadores de desempeño energético (IDEn) y las líneas de base energéticas (LBEn) se pueden presentar casos en donde los valores medidos de la IDEn no muestran de forma real las características del desempeño energético de la organización.
+        .row.justify-content-around.align-items-center(titulo="2")
+          .col-md-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-12.png', alt='')
+          .col-md-7.mb-4.mb-md-0
+            p Es importante considerar que algunas variables relevantes pueden no haber sido tenidas en cuenta o que cambios en la infraestructura física u operativa no se hayan considerado durante la determinación de los Indicadores de Desempeño Energético (IDEn). Cuando se detectan estas situaciones, se debe ajustar los IDEn y las Líneas de Base Energéticas (LBEn) para caracterizar de manera precisa el desempeño energético de la organización. 
+        .row.justify-content-around.align-items-center(titulo="3")
+          .col-md-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-13.png', alt='')
+          .col-md-7.mb-4.mb-md-0
+            p Si una organización ya tiene establecidos los Indicadores de Desempeño Energético (IDEn) y las Líneas de Base Energéticas (LBEn) que reflejan adecuadamente su desempeño energético, pero posteriormente realiza cambios en instalaciones, tecnología, usos de energía o fuentes de energía, y variables relevantes, es necesario asegurar que los IDEn, las LBEn y los límites sigan siendo apropiados para caracterizar el desempeño energético impactado por esos cambios. 
+        .row.justify-content-around.align-items-center(titulo="4")
+          .col-md-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-14.png', alt='')
+          .col-md-7.mb-4.mb-md-0
+            h4 Para cumplir con lo anterior, se tienen dos opciones: 
+            p - Reemplazar los IDEn y las LBEn actuales por unos nuevos que reflejen la realidad del desempeño después de los cambios en la organización. 
+            p - Ajustar las líneas de base energética (LBEn) sin cambiar la caracterización del indicador de desempeño energético.      
+        .row.justify-content-around.align-items-center(titulo="5")
+          .col-md-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-15.png', alt='')
+          .col-md-7.mb-4.mb-md-0
+            h4 Para evaluar la validez de los Indicadores de Desempeño Energético (IDEn) y las Líneas de Base Energéticas (LBEn) después de hacer cambios en la organización, se puede: 
+            p Verificar si los nuevos valores de las variables relevantes se encuentran dentro de un rango estadístico válido en relación a la LBEn actual. 
+            p Detectar cambios  en factores estáticos que invaliden la LBEn o requieran ajustes en los límites de los IDEn, de las líneas de producción o cambios en los turnos de producción.    
+        .row.justify-content-around.align-items-center(titulo="6")
+          .col-md-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/temas/tema3/tema3-16.png', alt='')
+          .col-md-7.mb-4.mb-md-0
+            p Si de acuerdo a lo anterior, los valores de las LBEn y los IDEn no caracterizan el desempeño energético, se puede confirmar que no son válidos y se necesita hacer cambios y/o ajustes. Cabe resaltar que los cambios o ajustes realizados a las LBEn y los IDEn se deben documentar y registrar. 
 
 
 </template>
