@@ -55,12 +55,14 @@
               tr
                 td.text-center 1.450.988,0
                 td.text-center 4.015.250,0
-        p(data-aos="fade-right") El IDEn establecido por la compañía se denomina.
+        p(data-aos="fade-right") El IDEn establecido por la compañía se denomina:
         div.text-center(data-aos="fade-right")
+          mfrac
+            mi.italic EP<sub>T</sub> =&nbsp;
           math.text-center
             mfrac
               msup
-                mi.italic EPT = Consumo de energía total de la planta [kWh]
+                mi.italic Consumo de energía total de la planta [kWh]
               msup
                 mi.italic Kilos totales de producción [kg]
 
@@ -84,7 +86,7 @@
                 mi.italic 4.015.250
           mfrac
             mi.italic = 0,3613 [kWh/kg]
-        p.mt-3 Ahora se debe determinar el valor de la LBEn con el fin de compararlo con el valor de EPT. Para eso se debe calcular primero la energía que se habría consumido con el mismo nivel de producción del mes de octubre de 2021, antes de la ejecución del proyecto de mejora energética, utilizando la ecuación establecida para la determinación de la LBEn de la siguiente manera:
+        p.mt-3 Ahora se debe determinar el valor de la LBEn con el fin de compararlo con el valor de EP#[sub T]. Para eso se debe calcular primero la energía que se habría consumido con el mismo nivel de producción del mes de octubre de 2021, antes de la ejecución del proyecto de mejora energética, utilizando la ecuación establecida para la determinación de la LBEn de la siguiente manera:
         div.text-center
           mfrac
             mi.italic Energía = 0,2896 * Kilos totales de Producción Octubre de 2021 + 301.630 [kWh/mes]
@@ -103,7 +105,7 @@
                 mi.italic 4.015.250
           mfrac
             mi.italic = 0,3647 [kWh/kg]
-        p Una vez obtenido el valor de la LBEn, se procede a realizar la diferencia de la siguiente manera:
+        p.mt-4 Una vez obtenido el valor de la LBEn, se procede a realizar la diferencia de la siguiente manera:
         div.text-center
           mfrac
             mi.italic Desempeño = EP<sub>t</sub> - LBEn<sub>EP<sub>T</sub></sub> = 0,3613 - 0,3647 = - 0,0034
@@ -152,8 +154,8 @@
                 mi.italic 0,3647 
           mfrac 
             mi &nbsp;*100% = -0,93 %
-        p.mt-3(data-aos="fade-right") Del valor anterior se puede afirmar que el desempeño en este indicador mejoró un 0,93% al estar por debajo del valor de la LBEn en ese valor porcentual.
-        p(data-aos="fade-right") La ventaja de utilizar el enfoque del cambio porcentual es que se puede obtener de forma rápida el porcentaje de reducción o aumento de consumo total de energía para la evaluación del cumplimiento de las metas y objetivos energéticos asociados al IDEn. Es decir, para el caso del ejemplo, como el valor del desempeño tiene signo negativo se entiende que existe una disminución de consumo y si se desea calcular el ahorro obtenido con respecto a la línea de base energética se puede calcular de la siguiente manera:
+        p.mt-3(data-aos="fade-right") Del valor anterior se puede afirmar que, el desempeño en este indicador mejoró un 0,93% al estar por debajo del valor de la LBEn en ese valor porcentual.
+        p(data-aos="fade-right") La ventaja de utilizar el enfoque del cambio porcentual es que se puede obtener de forma rápida el porcentaje de reducción o aumento de consumo total de energía para la evaluación del cumplimiento de las metas y objetivos energéticos asociados al IDEn. Es decir, para el caso del ejemplo, como el valor del desempeño tiene signo negativo, se entiende que existe una disminución de consumo y si se desea calcular el ahorro obtenido con respecto a la línea de base energética se puede calcular de la siguiente manera:
         div.text-center(data-aos="fade-right")
           mfrac
             mi.italic Resultado energético = Desempeño [%] * Energía calculada a través de la línea de base energética
@@ -189,7 +191,7 @@
               msup
                 mi.italic 0,3647 
           mfrac 
-            mi &nbsp;= -0,9906
+            mi.italic &nbsp;= 0,9906
         p.mt-3 El anterior resultado se puede interpretar como una mejora del desempeño energético en términos del valor de la línea de base.
 
         
@@ -202,55 +204,69 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/tema3-09.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El seguimiento al cumplimiento de los objetivos, metas energéticas y planes de acción para alcanzarlos, son muy importantes para el Sistema de Gestión de la Energía ya que permiten a la organización demostrar a través de resultados el cumplimiento de la política energética establecida.
+        p.mb-0 El seguimiento al cumplimiento de los objetivos, metas energéticas y planes de acción para alcanzarlos, son muy importantes para el Sistema de Gestión de la Energía ya que permiten a la organización demostrar a través de resultados, el cumplimiento de la política energética establecida.
           br
           br
           | La comparación entre los IDEn y las LBEn permiten evaluar cuantitativamente la efectividad de los planes de acción, metas u objetivos energéticos. En la siguiente tabla se puede visualizar el uso del IDEn definido como kWh/m3 con límite equipo y tipo cociente de valores medidos, como medida de la evaluación del desempeño de los planes de acción, la meta y el objetivo energético descrito.
 
-    .row.justify-content-center.align-items-center.mb-5.mt-5(data-aos="fade-right")
-      .col-md-12.col-12
-        .tabla-a.color-acento-botones(data-aos="fade-right")
-          table
-            caption Nota. SENA (2022).
-            thead
-              tr
-                th No.
-                th Objetivo
-                th Meta
-                th Evaluación del desempeño
-                th Plan de acción
-                th Responsable
-                th Recursos
-                th Verificación plan de acción
-                th Fecha límite
-            tbody
-              tr
-                td(rowspan="2") 1
-                td(rowspan="2") Reducción del consumo total de electricidad de la sede Norte en un 5%.
-                td(rowspan="2") Reducir en 30% el consumo de electricidad en el uso de bombeo de agua.
-                td(rowspan="2") Comprobación de reducción a través del IDEn para el cuarto de bombeo agua [kWh/m3].
-                td 1.1. Cambio de motores trifásicos No. 4 y No. 5 de la sala principal de bombeo por motores de eficiencia Premium IE3. 
-                td Coordinador de mantenimiento.
-                td 
-                  p Contrato No. 1024 de 2021 por valor de 30.000.000 de pesos.
-                  p Grupo de servicios y mantenimiento (2 días).
-                td 
-                  p Verificar cronograma de ejecución.
-                  p Verificar cronograma de presupuesto ejecutado.
-                  p Comparación de mediciones eléctricas antes del cambio versus después del cambio.
-                td Marzo 15 de 2022.
-              tr 
-                td 1.2. Instalación de variador de velocidad para el motor trifásico No. 8 de 50 HP. 
-                td Coordinador área de automatización.
-                td 
-                  p Orden de compra No. 20221032 por valor de 10.000.000 de pesos.
-                  p Grupo de servicios y mantenimiento (7 días).
-                td 
-                  p Verificar cronograma de ejecución.
-                  p Comparación de mediciones eléctricas antes del cambio versus después del cambio.
-                td Febrero 20 de 2022.
+    .tarjeta.color-primario.p-3.mb-5.mt-5(data-aos="fade-down")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/componentes/descargar.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              p.text-small.mb-0 Podrá consultar un ejemplo del uso de IDEn según la evaluación de desempeño en el:
+              p.text-small #[b Anexo 4.] - Ejemplo de uso del IDEn según evaluación de desempeño. 
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_4_Ejemplo_de_uso_del_IDEn.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
 
-    p(data-aos="fade-right") De la tabla anterior se puede afirmar que la forma hacer el seguimiento y evaluar el cumplimiento de la meta energética de reducción del 30 % en el consumo de electricidad en el uso de bombeo de agua, se debe calcular el IDEn para el cuarto de bombeo agua [kWh/m3] y compararlo con la línea de base energética la cual se debe establecer con los datos históricos de las mediciones de las bombas de agua antes de la ejecución de los planes de acción 1.1 y 1.2. Del resultado de la comparación utilizando el enfoque de cambio porcentual, es posible determinar si la meta energética se cumple o si se requiere hacer más controles operacionales para que se pueda cumplir.
+    //- .row.justify-content-center.align-items-center.mb-5.mt-5(data-aos="fade-right")
+    //-   .col-md-12.col-12
+    //-     .tabla-a.color-acento-botones(data-aos="fade-right")
+    //-       table
+    //-         caption Nota. SENA (2022).
+    //-         thead
+    //-           tr
+    //-             th No.
+    //-             th Objetivo
+    //-             th Meta
+    //-             th Evaluación del desempeño
+    //-             th Plan de acción
+    //-             th Responsable
+    //-             th Recursos
+    //-             th Verificación plan de acción
+    //-             th Fecha límite
+    //-         tbody
+    //-           tr
+    //-             td(rowspan="2") 1
+    //-             td(rowspan="2") Reducción del consumo total de electricidad de la sede Norte en un 5%.
+    //-             td(rowspan="2") Reducir en 30% el consumo de electricidad en el uso de bombeo de agua.
+    //-             td(rowspan="2") Comprobación de reducción a través del IDEn para el cuarto de bombeo agua [kWh/m3].
+    //-             td 1.1. Cambio de motores trifásicos No. 4 y No. 5 de la sala principal de bombeo por motores de eficiencia Premium IE3. 
+    //-             td Coordinador de mantenimiento.
+    //-             td 
+    //-               p Contrato No. 1024 de 2021 por valor de 30.000.000 de pesos.
+    //-               p Grupo de servicios y mantenimiento (2 días).
+    //-             td 
+    //-               p Verificar cronograma de ejecución.
+    //-               p Verificar cronograma de presupuesto ejecutado.
+    //-               p Comparación de mediciones eléctricas antes del cambio versus después del cambio.
+    //-             td Marzo 15 de 2022.
+    //-           tr 
+    //-             td 1.2. Instalación de variador de velocidad para el motor trifásico No. 8 de 50 HP. 
+    //-             td Coordinador área de automatización.
+    //-             td 
+    //-               p Orden de compra No. 20221032 por valor de 10.000.000 de pesos.
+    //-               p Grupo de servicios y mantenimiento (7 días).
+    //-             td 
+    //-               p Verificar cronograma de ejecución.
+    //-               p Comparación de mediciones eléctricas antes del cambio versus después del cambio.
+    //-             td Febrero 20 de 2022.
+
+    p(data-aos="fade-right") De la tabla que se encuentra en el anexo anterior, se puede afirmar que la forma hacer el seguimiento y evaluar el cumplimiento de la meta energética de reducción del 30 % en el consumo de electricidad en el uso de bombeo de agua, se debe calcular el IDEn para el cuarto de bombeo agua [kWh/m3] y compararlo con la línea de base energética la cual se debe establecer con los datos históricos de las mediciones de las bombas de agua antes de la ejecución de los planes de acción 1.1 y 1.2. Del resultado de la comparación utilizando el enfoque de cambio porcentual, es posible determinar si la meta energética se cumple o si se requiere hacer más controles operacionales para que se pueda cumplir. 
 
 
     .tarjeta.color-primario.p-3.mb-5.mt-5(data-aos="fade-down")
@@ -263,7 +279,7 @@
               h3.mb-1 Documento - Estudios de Caso SGEn
               p.text-small En el siguiente material complementario realizado por Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019) se pueden observar dos estudios de caso con datos reales donde se utilizan los IDEn y las LBEn para la evaluación del desempeño energético.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/2_Estudios de Caso SGEn.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/2_Estudios_de_Caso_SGEn.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
