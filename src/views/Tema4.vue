@@ -29,8 +29,10 @@
           .row.justify-content-center.align-items-center(titulo="Reporte semanal / quincenal / mensual del desempeño energético")
             .col-12.mb-md-0
               p Para las organizaciones del sector comercial o de oficinas, normalmente no se utiliza el reporte diario debido a que sus variables relevantes no varían de forma significativa de un día a otro, por lo cual se prefiere que el periodo de reporte sea semanal, quincenal o mensual. Este tipo de reportes es muy utilizado por los coordinadores de las áreas de los usos significativos de la energía como centros de datos, iluminación, aire acondicionado, equipos de ofimática, ascensores, entre otros. Lo anterior no quiere decir que solo está limitado a este tipo de usuarios, ya que también en el sector industrial son utilizados en los niveles que reportan a la alta dirección.
-              p En la siguiente imagen se presenta un ejemplo de reporte de desempeño energético de tipo mensual para un edificio de oficinas.
+              p En la siguiente figura se presenta un ejemplo de reporte de desempeño energético de tipo mensual para un edificio de oficinas.
             .col-12.col-md-10.mt-4
+              .titulo-sexto.color-acento-contenido.mb-3
+                p.titulo.mb-0 <b>Figura 7. </b> <i>Indicadores de desempeño energético.</i>
               figure
                 img(src='@/assets/curso/temas/tema4/tema4-03.png', alt='')
                 figcaption Nota. SENA (2022).
@@ -50,7 +52,9 @@
                   | La consolidación de la información de entrada para la ejecución de la revisión por la dirección que comprenden como mínimo: el nivel o grado de cumplimiento de cada uno de los objetivos y las metas energéticas, el resultado del desempeño energético y los resultados de las mejoras en el desempeño energético implementadas, los resultados del seguimiento y medición de los IDEn, y los USE, el estado de cada uno de los planes de acción determinados dentro del SGEn, las barreras, inconvenientes y situaciones a solucionar presentadas durante la implementación y operación del SGEn, entre otras.
                 p A través de un año se pueden presentar diversas situaciones en la organización respecto al comportamiento del desempeño energético, sin embargo, en este tipo de reportes se pretende que la información sea lo más resumida posible y se prefiere la representación gráfica.
             .col-12.col-md-10.mt-4
-              p En la siguiente grafica se muestra la tendencia de comportamiento para una organización:
+              p En la siguiente figura se muestra la tendencia de comportamiento para una organización:
+              .titulo-sexto.color-acento-contenido.mb-3
+                p.titulo.mb-0 <b>Figura 8. </b> <i>Tendencia de comportamiento para la organización.</i>
               figure
                 img(src='@/assets/curso/temas/tema4/tema4-04.png', alt='')
                 figcaption Nota. Adaptado de Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019).
@@ -119,61 +123,65 @@
               p Una de las sedes del Ministerio de Minas y Energía ubicadas en la ciudad de Bogotá, tiene implementado su sistema de gestión de la energía, a través del cual se ha identificado uno de los requisitos legales que debe cumplir por pertenecer al sector público:
             .col-12.mb-md-0
               .titulo-sexto.color-acento-contenido
-                p.titulo.pb-0.mb-0 <i>Matriz de requisitos legales y otros requerimientos del Ministerio de Minas y Energía.</i>
-              .tabla-b.color-acento-contenido.mb-5
-                .tabla-b__header
-                  h4.mb-0 MATRIZ DE REQUISITOS LEGALES Y OTROS REQUISITOS
-                table
+                p.titulo.pb-0.mb-0 #[b Tabla 4.] <i>Matriz de requisitos legales y otros requerimientos del Ministerio de Minas y Energía.</i>
+              .tabla-a.color-acento-contenido.mb-5
+                //- .tabla-b__header
+                //-   h4.mb-0 MATRIZ DE REQUISITOS LEGALES Y OTROS REQUISITOS
+                table(style="width:auto")
                   caption Nota. SENA (2022).
-                  tr
-                    th No.
-                    th Requisito
-                    th Nombre del requisito
-                    th Tema
-                    th Emisor / parte interesada
-                    th ¿Aplica para el SGEn?
-                    th Forma de cumplimiento
-                    th Responsable
-                    th Frecuencia / forma de Revisión
-                  tr 
-                    td 2
-                    td Ley 1955 de 2019.
-                    td Artículo 292. Objetivo para el primer año un ahorro en el consumo de energía de mínimo 15 %.
-                    td Gestión de la Energía.
-                    td Congreso de la República.
-                    td Sí. Obligatorio por pertenecer al sector público.
-                    td Resultado del IDEn Consumo Total Edificio [kWh].
-                    td Departamento de Operaciones.
-                    td Anual / verificación con responsables.
+                  thead
+                    tr
+                      th No.
+                      th Requisito
+                      th Nombre del requisito
+                      th Tema
+                      th Emisor / parte interesada
+                      th ¿Aplica para el SGEn?
+                      th Forma de cumplimiento
+                      th Responsable
+                      th Frecuencia / forma de Revisión
+                  tbody
+                    tr 
+                      td 2
+                      td Ley 1955 de 2019.
+                      td Artículo 292. Objetivo para el primer año un ahorro en el consumo de energía de mínimo 15%.
+                      td Gestión de la Energía.
+                      td Congreso de la República.
+                      td Sí. Obligatorio por pertenecer al sector público.
+                      td Resultado del IDEn Consumo Total Edificio [kWh].
+                      td Departamento de Operaciones.
+                      td Anual / verificación con responsables.
             .col-12
               p Como se puede observar en la matriz de requisitos legales, la forma para determinar el cumplimiento del requisito es a través del valor del IDEn Consumo Total Edificio [kWh]. A partir de lo anterior, en el momento de la evaluación del cumplimiento de requisitos legales y otros requisitos se puede presentar el siguiente registro determinado por el sistema de gestión de la organización:
               .titulo-sexto.color-acento-contenido
-                p.titulo.pb-0.mb-0 <i>Registro de seguimiento y evaluación del cumplimiento de requisitos legales y otros requisitos.</i>
-              .tabla-b.color-acento-contenido.mb-5
-                .tabla-b__header
-                  h4.mb-0 REGISTRO DE SEGUIMIENTO Y EVALUACIÓN DEL CUMPLIMIENTO DE REQUISITOS LEGALES Y OTROS REQUISITOS
-                table
+                p.titulo.pb-0.mb-0 #[b Tabla 5.] <i>Registro de seguimiento y evaluación del cumplimiento de requisitos legales y otros requisitos.</i>
+              .tabla-a.color-acento-contenido
+                //- .tabla-b__header
+                //-   h4.mb-0 REGISTRO DE SEGUIMIENTO Y EVALUACIÓN DEL CUMPLIMIENTO DE REQUISITOS LEGALES Y OTROS REQUISITOS
+                table(style="width:auto")
                   caption Nota. SENA (2022).
-                  tr
-                    th No.
-                    th Requisito
-                    th Tema
-                    th Frecuencia / Forma de Revisión
-                    th Forma de Cumplimiento
-                    th Fecha del seguimiento / Evaluación
-                    th Cumple (SI / NO)
-                    th Evidencia
-                    th Personal entrevistado
-                  tr 
-                    td 2
-                    td Ley 1955 de 2019. Artículo 292. Objetivo para el primer año un ahorro en el consumo de energía de mínimo 15 %.
-                    td Gestión de la energía.
-                    td Anual / verificación con responsables.
-                    td Resultado del IDEn consumo total edificio [kWh].
-                    td Enero 15 de 2022.
-                    td Sí
-                    td El valor promedio del IDEn consumo total edificio [kWh] para los 12 meses año 2021 fue de 124.350 kWh/mes. La meta del 15 % de disminución fue superada en 4 %, ya que se obtuvo un ahorro final del 19 %.
-                    td Jefe de operaciones / Ver correo electrónico.
+                  thead
+                    tr
+                      th No.
+                      th Requisito
+                      th Tema
+                      th Frecuencia / Forma de Revisión
+                      th Forma de Cumplimiento
+                      th Fecha del seguimiento / Evaluación
+                      th Cumple (SI / NO)
+                      th Evidencia
+                      th Personal entrevistado
+                  tbody
+                    tr 
+                      td 2
+                      td Ley 1955 de 2019. Artículo 292. Objetivo para el primer año un ahorro en el consumo de energía de mínimo 15%.
+                      td Gestión de la energía.
+                      td Anual / verificación con responsables.
+                      td Resultado del IDEn consumo total edificio [kWh].
+                      td Enero 15 de 2022.
+                      td Sí
+                      td El valor promedio del IDEn consumo total edificio [kWh] para los 12 meses año 2021 fue de 124.350 kWh/mes. La meta del 15% de disminución fue superada en 4%, ya que se obtuvo un ahorro final del 19%.
+                      td Jefe de operaciones / Ver correo electrónico.
 
 
 </template>
