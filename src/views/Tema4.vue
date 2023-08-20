@@ -20,8 +20,8 @@
               figure
                 img(src='@/assets/curso/temas/tema4/tema4-01.png', alt='')
             .col-12.mt-5(data-aos="fade-down")
-              .titulo-sexto.color-acento-contenido.mb-3
-                p.titulo.mb-0 <b>Figura 6. </b> <i>Ejemplo de reporte diario de desempeño energético.</i>
+              .titulo-sexto.color-acento-botones.mb-3
+                p.titulo.mb-0 <b>Figura 8. </b> <i>Ejemplo de reporte diario de desempeño energético.</i>
               figure
                 img(src='@/assets/curso/temas/tema4/tema4-02.png', alt='')
                 figcaption Nota. Adaptado de la Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019).
@@ -31,8 +31,8 @@
               p Para las organizaciones del sector comercial o de oficinas, normalmente no se utiliza el reporte diario debido a que sus variables relevantes no varían de forma significativa de un día a otro, por lo cual se prefiere que el periodo de reporte sea semanal, quincenal o mensual. Este tipo de reportes es muy utilizado por los coordinadores de las áreas de los usos significativos de la energía como centros de datos, iluminación, aire acondicionado, equipos de ofimática, ascensores, entre otros. Lo anterior no quiere decir que solo está limitado a este tipo de usuarios, ya que también en el sector industrial son utilizados en los niveles que reportan a la alta dirección.
               p En la siguiente figura se presenta un ejemplo de reporte de desempeño energético de tipo mensual para un edificio de oficinas.
             .col-12.col-md-10.mt-4
-              .titulo-sexto.color-acento-contenido.mb-3
-                p.titulo.mb-0 <b>Figura 7. </b> <i>Indicadores de desempeño energético.</i>
+              .titulo-sexto.color-acento-botones.mb-3
+                p.titulo.mb-0 <b>Figura 9. </b> <i>Indicadores de desempeño energético.</i>
               figure
                 img(src='@/assets/curso/temas/tema4/tema4-03.png', alt='')
                 figcaption Nota. SENA (2022).
@@ -53,8 +53,8 @@
                 p A través de un año se pueden presentar diversas situaciones en la organización respecto al comportamiento del desempeño energético, sin embargo, en este tipo de reportes se pretende que la información sea lo más resumida posible y se prefiere la representación gráfica.
             .col-12.col-md-10.mt-4
               p En la siguiente figura se muestra la tendencia de comportamiento para una organización:
-              .titulo-sexto.color-acento-contenido.mb-3
-                p.titulo.mb-0 <b>Figura 8. </b> <i>Tendencia de comportamiento para la organización.</i>
+              .titulo-sexto.color-acento-botones.mb-3
+                p.titulo.mb-0 <b>Figura 10. </b> <i>Tendencia de comportamiento para la organización.</i>
               figure
                 img(src='@/assets/curso/temas/tema4/tema4-04.png', alt='')
                 figcaption Nota. Adaptado de Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019).
@@ -122,9 +122,9 @@
               h4 Ejemplo:
               p Una de las sedes del Ministerio de Minas y Energía ubicadas en la ciudad de Bogotá, tiene implementado su sistema de gestión de la energía, a través del cual se ha identificado uno de los requisitos legales que debe cumplir por pertenecer al sector público:
             .col-12.mb-md-0
-              .titulo-sexto.color-acento-contenido
-                p.titulo.pb-0.mb-0 #[b Tabla 4.] <i>Matriz de requisitos legales y otros requerimientos del Ministerio de Minas y Energía.</i>
-              .tabla-a.color-acento-contenido.mb-5
+              .titulo-sexto.color-acento-botones
+                p.titulo.pb-0.mb-0 #[b Tabla 9.] <i>Matriz de requisitos legales y otros requerimientos del Ministerio de Minas y Energía.</i>
+              .tabla-a.color-acento-botones.mb-5
                 //- .tabla-b__header
                 //-   h4.mb-0 MATRIZ DE REQUISITOS LEGALES Y OTROS REQUISITOS
                 table(style="width:auto")
@@ -153,9 +153,9 @@
                       td Anual / verificación con responsables.
             .col-12
               p Como se puede observar en la matriz de requisitos legales, la forma para determinar el cumplimiento del requisito es a través del valor del IDEn Consumo Total Edificio [kWh]. A partir de lo anterior, en el momento de la evaluación del cumplimiento de requisitos legales y otros requisitos se puede presentar el siguiente registro determinado por el sistema de gestión de la organización:
-              .titulo-sexto.color-acento-contenido
-                p.titulo.pb-0.mb-0 #[b Tabla 5.] <i>Registro de seguimiento y evaluación del cumplimiento de requisitos legales y otros requisitos.</i>
-              .tabla-a.color-acento-contenido
+              .titulo-sexto.color-acento-botones
+                p.titulo.pb-0.mb-0 #[b Tabla 10.] <i>Registro de seguimiento y evaluación del cumplimiento de requisitos legales y otros requisitos.</i>
+              .tabla-a.color-acento-botones
                 //- .tabla-b__header
                 //-   h4.mb-0 REGISTRO DE SEGUIMIENTO Y EVALUACIÓN DEL CUMPLIMIENTO DE REQUISITOS LEGALES Y OTROS REQUISITOS
                 table(style="width:auto")

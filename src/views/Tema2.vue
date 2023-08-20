@@ -21,7 +21,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 a. Establecimiento de un periodo base adecuado
-            p Generalmente, el periodo de base recomendado y utilizado por la mayoría de organizaciones es de un año de recolección de información. Es decir, si el IDEn que se determinó se va a evaluar de forma mensual, el período de base recomendado para la construcción de la línea de base energética es de 12 meses equivalente a un año.
+            p Generalmente, el periodo de base recomendado y utilizado por la mayoría de las organizaciones es de un año de recolección de información. Es decir, si el IDEn que se determinó se va a evaluar de forma mensual, el período de base recomendado para la construcción de la línea de base energética es de 12 meses equivalente a un año.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema2/tema2-02.png', alt='')
@@ -71,11 +71,11 @@
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-md-5.col-12
-        .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Tabla 2. </b> <i>Registro de facturación del último año.</i>
-        .tabla-a.color-acento-contenido.mb-5(data-aos="fade-right")
+        .titulo-sexto.color-acento-botones.mb-1
+          p.titulo.pb-0.mb-0 <b>Tabla 6. </b> <i>Registro de facturación del último año.</i>
+        .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
           table
-            caption Nota. Sena (2022).
+            caption Nota. SENA (2022).
             thead
               tr
                 th Año
@@ -121,11 +121,11 @@
                 td Promedio
                 td 89.409
       .col-md-7.col-12
-        .titulo-sexto.color-acento-contenido.mb-3
-          p.titulo.mb-0 <b>Figura 3. </b> <i>Línea de base de IDEn - EET (energía eléctrica total).</i>
+        .titulo-sexto.color-acento-botones.mb-3
+          p.titulo.mb-0 <b>Figura 5. </b> <i>Línea de base de IDEn - EET (energía eléctrica total).</i>
         figure
           img(src='@/assets/curso/temas/tema2/tema2-08.png', alt='')
-          figcaption Nota. Sena (2022).
+          figcaption Nota. SENA (2022).
 
     p.mb-5(data-aos="fade-down") De acuerdo con la tabla y figura anterior, se puede definir como línea de base energética para el IDEn Energía Eléctrica Total (EET) el valor promedio del consumo de los últimos 12 meses correspondiente a 89.409 kWh. Opcionalmente, se puede tomar como línea de base el valor de consumo de cada mes, para que en la evaluación del indicador se compare con el mismo mes que se está evaluando.
 
@@ -142,11 +142,11 @@
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-md-5.col-12
-        .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 <b>Tabla 3. </b> <i>Energía total vs. kilos totales de producción.</i>
-        .tabla-a.color-acento-contenido.mb-5(data-aos="fade-right")
+        .titulo-sexto.color-acento-botones.mb-1
+          p.titulo.pb-0.mb-0 <b>Tabla 7. </b> <i>Energía total vs. kilos totales de producción.</i>
+        .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
           table
-            caption Nota. Sena (2022).
+            caption Nota. SENA (2022).
             thead
               tr
                 th Año
@@ -186,19 +186,19 @@
                 td 1.543.502
                 td 4.126.265 
       .col-md-7.col-12
-        .titulo-sexto.color-acento-contenido.mb-3
-          p.titulo.mb-0 <b>Figura 4. </b> <i>Graficación energía total vs. kilos totales de producción.</i>
+        .titulo-sexto.color-acento-botones.mb-3
+          p.titulo.mb-0 <b>Figura 6. </b> <i>Graficación energía total vs. kilos totales de producción.</i>
         figure
           img(src='@/assets/curso/temas/tema2/tema2-10.png', alt='')
-
+          figcaption Nota. SENA (2022).
     p.mb-5(data-aos="fade-down") Debido a lo anterior, el equipo de gestión de la energía decide establecer un IDEn de tipo cociente de valores medidos, con alcance organizacional, denominado como EP_T  donde sea posible la creación de un modelo que permita relacionar el consumo de energía total de la planta y la producción total en kilos mensuales.
 
     .row.justify-content-center.align-items-center.mb-5.p-4(data-aos="fade-right" style="background-color:#F3EDFF; border-radius:1rem")
       .col-md-6.col-12
         p Para la construcción de la línea de base energética (LBEn) para el IDEn determinado, se debe calcular la ecuación en el mismo gráfico XY donde se graficó la relación entre el consumo de energía y los kilos totales de producción. Esto se puede realizar mediante las mismas herramientas de la hoja de cálculo y se tiene como resultado lo siguiente:
       .col-md-6.col-12
-        .titulo-sexto.color-acento-contenido.mb-3
-          p.titulo.mb-0 <b>Figura 5. </b> <i>Ecuación de la graficación energía total vs. kilos totales de producción.</i>
+        .titulo-sexto.color-acento-botones.mb-3
+          p.titulo.mb-0 <b>Figura 7. </b> <i>Ecuación de la graficación energía total vs. kilos totales de producción.</i>
         figure
           img(src='@/assets/curso/temas/tema2/tema2-11.png', alt='')
           figcaption Nota. SENA (2022).

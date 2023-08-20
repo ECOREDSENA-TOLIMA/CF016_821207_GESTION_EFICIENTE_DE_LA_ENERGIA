@@ -282,15 +282,15 @@
         .row(titulo="1")
           .col-md-4.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/tema1-25.png', alt='')
-          .col-md-8
+              img.img-bn(src='@/assets/curso/temas/tema1/tema1-25.png', alt='')
+          .col-md-8.img-bn
             h4 Variables relevantes.
             p Para la determinación de las variables relevantes se utilizan inicialmente los resultados de la revisión energética. Posterior a la identificación de los usos significativos de la energía (USE) y la determinación de los límites para los indicadores de desempeño energético (IDEn) de la organización, esta debe definir y cuantificar las variables relevantes en cada uno de los límites de los IDEn. El proceso para la definición de las variables relevantes, inicia con la identificación de todas las variables que podrían afectar el desempeño energético dentro del límite del IDEn definido.
         .row(titulo="2")
           .col-md-4.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/tema1-27.png', alt='')
-          .col-md-8
+              img.img-bn(src='@/assets/curso/temas/tema1/tema1-27.png', alt='')
+          .col-md-8.img-bn
             p En este proceso de identificación se van a encontrar muchas variables que pueden o no afectar el desempeño energético. Las fuentes de información para la identificación inicial de las variables que afectan el desempeño son (entre otras):
             ul.lista-ul.mb-2
               li.mb-0
@@ -311,8 +311,8 @@
         .row(titulo="3")
           .col-md-4.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/tema1-28.png', alt='')
-          .col-md-8
+              img.img-bn(src='@/assets/curso/temas/tema1/tema1-28.png', alt='')
+          .col-md-8.img-bn
             p De acuerdo con Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019), generalmente se pueden encontrar las siguientes variables relevantes en el sector industrial:
             ul.lista-ul.mb-2
               li.mb-0
