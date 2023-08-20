@@ -144,7 +144,8 @@
       .col-md-5.col-12
         .titulo-sexto.color-acento-botones.mb-1
           p.titulo.pb-0.mb-0 <b>Tabla 7. </b> <i>Energía total vs. kilos totales de producción.</i>
-        .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
+
+        .tabla-a.color-acento-botones.my-3(data-aos="fade-right")
           table
             caption Nota. SENA (2022).
             thead

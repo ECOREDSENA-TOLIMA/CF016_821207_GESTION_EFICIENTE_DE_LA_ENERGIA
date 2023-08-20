@@ -144,7 +144,7 @@
                     tr 
                       td 2
                       td Ley 1955 de 2019.
-                      td Artículo 292. Objetivo para el primer año un ahorro en el consumo de energía de mínimo 15%.
+                      td Artículo 292. Objetivo para el primer año un ahorro en el consumo de energía de mínimo 15 %.
                       td Gestión de la Energía.
                       td Congreso de la República.
                       td Sí. Obligatorio por pertenecer al sector público.
@@ -169,18 +169,17 @@
                       th Forma de Cumplimiento
                       th Fecha del seguimiento / Evaluación
                       th Cumple (SI / NO)
-                      th Evidencia
                       th Personal entrevistado
                   tbody
                     tr 
                       td 2
-                      td Ley 1955 de 2019. Artículo 292. Objetivo para el primer año un ahorro en el consumo de energía de mínimo 15%.
+                      td Ley 1955 de 2019. Artículo 292. Objetivo para el primer año un ahorro en el consumo de energía de mínimo 15 %.
                       td Gestión de la energía.
                       td Anual / verificación con responsables.
                       td Resultado del IDEn consumo total edificio [kWh].
                       td Enero 15 de 2022.
                       td Sí
-                      td El valor promedio del IDEn consumo total edificio [kWh] para los 12 meses año 2021 fue de 124.350 kWh/mes. La meta del 15% de disminución fue superada en 4%, ya que se obtuvo un ahorro final del 19%.
+                      td El valor promedio del IDEn consumo total edificio [kWh] para los 12 meses año 2021 fue de 124.350 kWh/mes. La meta del 15 % de disminución fue superada en 4 %, ya que se obtuvo un ahorro final del 19 %.
                       td Jefe de operaciones / Ver correo electrónico.
 
 

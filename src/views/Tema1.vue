@@ -433,7 +433,7 @@
 
     p(data-aos="fade-right") A continuación, se muestra la gráfica resultante de acuerdo con los datos analizados en el primer paso:
  
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
+    .row.justify-content-center.align-items-center.my-5(data-aos="fade-down")
       .col-md-10.col-12
         .titulo-sexto.color-acento-botones
           p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Energía total vs. Kilos totales.</i>
