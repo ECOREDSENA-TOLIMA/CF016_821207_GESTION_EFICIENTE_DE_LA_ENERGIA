@@ -137,7 +137,7 @@
                   msup
                     mi.italic LBEn 
               mfrac 
-                mi &nbsp;* 100%
+                mi &nbsp;* 100 %
           .col-2
 
 
@@ -162,9 +162,9 @@
                   msup
                     mi.italic 0,3647 
               mfrac 
-                mi &nbsp;*100% = -0,93 %
+                mi &nbsp;*100 % = -0,93 %
           .col-2      
-        p.mt-3(data-aos="fade-right") Del valor anterior se puede afirmar que, el desempeño en este indicador mejoró un 0,93% al estar por debajo del valor de la LBEn en ese valor porcentual.
+        p.mt-3(data-aos="fade-right") Del valor anterior se puede afirmar que, el desempeño en este indicador mejoró un 0,93 % al estar por debajo del valor de la LBEn en ese valor porcentual.
         p(data-aos="fade-right") La ventaja de utilizar el enfoque del cambio porcentual es que se puede obtener de forma rápida el porcentaje de reducción o aumento de consumo total de energía para la evaluación del cumplimiento de las metas y objetivos energéticos asociados al IDEn. Es decir, para el caso del ejemplo, como el valor del desempeño tiene signo negativo, se entiende que existe una disminución de consumo y si se desea calcular el ahorro obtenido con respecto a la línea de base energética se puede calcular de la siguiente manera:
         div.text-center(data-aos="fade-right")
           mfrac
@@ -224,7 +224,7 @@
         p.mb-0 El seguimiento al cumplimiento de los objetivos, metas energéticas y planes de acción para alcanzarlos, son muy importantes para el Sistema de Gestión de la Energía ya que permiten a la organización demostrar a través de resultados, el cumplimiento de la política energética establecida.
           br
           br
-          | La comparación entre los IDEn y las LBEn permiten evaluar cuantitativamente la efectividad de los planes de acción, metas u objetivos energéticos. En la siguiente tabla se puede visualizar el uso del IDEn definido como kWh/m3 con límite equipo y tipo cociente de valores medidos, como medida de la evaluación del desempeño de los planes de acción, la meta y el objetivo energético descrito.
+          | La comparación entre los IDEn y las LBEn permiten evaluar cuantitativamente la efectividad de los planes de acción, metas u objetivos energéticos. En la siguiente tabla se puede visualizar el uso del IDEn definido como kWh/m³ con límite equipo y tipo cociente de valores medidos, como medida de la evaluación del desempeño de los planes de acción, la meta y el objetivo energético descrito.
 
     .row.justify-content-center.my-5(data-aos="fade-right")
       .col-md-10.col-12

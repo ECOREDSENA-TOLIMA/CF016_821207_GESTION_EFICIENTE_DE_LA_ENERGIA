@@ -22,7 +22,7 @@
     #t_1_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 1.1 Resultados de la revisión energética
 
-    p.mb-5(data-aos="fade-right") De acuerdo con la Guía Técnica Colombiana GTC-ISO 50006:2017, la información que brinda como resultado del proceso de revisión energética y que se utiliza para la identificación de los indicadores de desempeño energético y las líneas de base energética se resumen en el siguiente anexo: 
+    p.mb-5(data-aos="fade-right") De acuerdo con la Guía Técnica Colombiana GTC-ISO 50006:2017, la información que brinda como resultado del proceso de revisión energética y que se utiliza para la identificación de los indicadores de desempeño energético y las líneas de base energética se resumen en la siguiente tabla: 
 
       .row.justify-content-center(data-aos="fade-right")
         .col-sm-12.col-lg-10
