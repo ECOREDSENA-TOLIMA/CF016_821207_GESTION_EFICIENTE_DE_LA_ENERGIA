@@ -72,7 +72,7 @@
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-md-5.col-12
         .titulo-sexto.color-acento-botones.mb-1
-          p.titulo.pb-0.mb-0 <b>Tabla 6. </b> <i>Registro de facturación del último año.</i>
+          p.titulo.pb-0.mb-0 <b>Tabla 3. </b> <i>Registro de facturación del último año.</i>
         .tabla-a.color-acento-botones.mb-5(data-aos="fade-right")
           table
             caption Nota. SENA (2022).
@@ -143,7 +143,7 @@
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-md-5.col-12
         .titulo-sexto.color-acento-botones.mb-1
-          p.titulo.pb-0.mb-0 <b>Tabla 7. </b> <i>Energía total vs. kilos totales de producción.</i>
+          p.titulo.pb-0.mb-0 <b>Tabla 4. </b> <i>Energía total vs. kilos totales de producción.</i>
 
         .tabla-a.color-acento-botones.my-3(data-aos="fade-right")
           table
@@ -227,7 +227,7 @@
               h3.mb-1 Documento - Línea de base Energética Univariable
               p.text-small En el siguiente enlace se encuentra la información realizada por Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019) donde se describe el método de ecuación multivariable cuando se requiere crear un modelo con dos o más variables relevantes y el método por producción equivalente.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/1_Modelos_LBEn.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Guia_estructura_ISO50001.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 

@@ -123,7 +123,7 @@
               p Una de las sedes del Ministerio de Minas y Energía ubicadas en la ciudad de Bogotá, tiene implementado su sistema de gestión de la energía, a través del cual se ha identificado uno de los requisitos legales que debe cumplir por pertenecer al sector público:
             .col-12.mb-md-0
               .titulo-sexto.color-acento-botones
-                p.titulo.pb-0.mb-0 #[b Tabla 9.] <i>Matriz de requisitos legales y otros requerimientos del Ministerio de Minas y Energía.</i>
+                p.titulo.pb-0.mb-0 #[b Tabla 5.] <i>Matriz de requisitos legales y otros requerimientos del Ministerio de Minas y Energía.</i>
               .tabla-a.color-acento-botones.mb-5
                 //- .tabla-b__header
                 //-   h4.mb-0 MATRIZ DE REQUISITOS LEGALES Y OTROS REQUISITOS
@@ -154,7 +154,7 @@
             .col-12
               p Como se puede observar en la matriz de requisitos legales, la forma para determinar el cumplimiento del requisito es a través del valor del IDEn Consumo Total Edificio [kWh]. A partir de lo anterior, en el momento de la evaluación del cumplimiento de requisitos legales y otros requisitos se puede presentar el siguiente registro determinado por el sistema de gestión de la organización:
               .titulo-sexto.color-acento-botones
-                p.titulo.pb-0.mb-0 #[b Tabla 10.] <i>Registro de seguimiento y evaluación del cumplimiento de requisitos legales y otros requisitos.</i>
+                p.titulo.pb-0.mb-0 #[b Tabla 6.] <i>Registro de seguimiento y evaluación del cumplimiento de requisitos legales y otros requisitos.</i>
               .tabla-a.color-acento-botones
                 //- .tabla-b__header
                 //-   h4.mb-0 REGISTRO DE SEGUIMIENTO Y EVALUACIÓN DEL CUMPLIMIENTO DE REQUISITOS LEGALES Y OTROS REQUISITOS
