@@ -293,7 +293,7 @@
               p.mb-0 #[b Figura 1.] 
                 i Sistema de refrigeración lácteos y carnes frías.
             figure
-              img(src='@/assets/curso/temas/tema1/tema1-09.png', alt='', @click="modal1=true")
+              img(src='@/assets/curso/temas/tema1/tema1-09.png', alt='En la  imagen se muestra un ejemplo de flujo de energía para el sistema de refrigeración de lácteos y carnes frías para un supermercado de tamaño mediano. Las flechas azules corresponden al flujo de electricidad y las flechas de color verde corresponde al flujo del proceso de refrigeración. También se aprecia que la salida del sistema es obtener una temperatura constante de 3°C durante las 24 horas del día con el fin de que el producto se conserve, y que la organización cuenta con dos medidores de electricidad que facilita y se deben tener en cuenta para la recopilación de datos para el cálculo del IDEn.', @click="modal1=true")
             .bloque-texto-a__texto.caja_escalada_hover(style="background-color: #F6F6F6;")
               p.px-3.py-1.my-1(data-aos="fade-up") Nota. SENA (2022).
                     
@@ -558,24 +558,28 @@
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-md-5.mb-4.mb-md-0
+            h4 Necesidades de medida y registro
             p Este mismo ejercicio servirá para identificar las necesidades de medida y registro que necesita la empresa ya sea porque no existen equipos de medición, o porque los equipos de medición existentes no poseen la tecnología de comunicaciones que permite de forma automática la recolección de la información.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/31.png', alt='')
         .row.justify-content-center.align-items-center(titulo="Autonomía de definir")
           .col-md-5.mb-4.mb-md-0
+            h4 Autonomía de definir
             p La organización tiene la autonomía de definir cómo se realizará la recopilación de los datos y si compra medidores o implementa redes de comunicación en una posterior etapa y definirlo como una de las metas dentro del sistema de gestión de la energía. También se debe tener en cuenta dentro de la recopilación de datos, la determinación de la forma en que se va a recolectar la información de las variables relevantes y factores estáticos definidos por la organización.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/32.png', alt='')
         .row.justify-content-center.align-items-center(titulo="Planificación para la recopilación de datos")
           .col-md-5.mb-4.mb-md-0
+            h4 Planificación para la recopilación de datos
             p Cabe mencionar que la recopilación de datos hace parte de la planificación para la recopilación de datos de la energía como requisito de la norma ISO 50001 explicado en el numeral 1.6. Recopilación de datos de la energía del Componente Formativo Planificación y Mejora Continua del SGEn, por lo tanto, para cada uno de los datos identificados por la organización que deben ser recolectados, deben especificar lo siguiente: 
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/33.png', alt='')
         .row.justify-content-center.align-items-center(titulo="Datos especificos")
           .col-md-5.mb-4.mb-md-0
+            h4 Datos específicos
             p.mb-0 - Nombre y descripción del dato a recolectar. 
             p.mb-0 - Fuente de información o lugar donde se recolecta la información. 
             p.mb-0 - Frecuencia de recolección (diaria, semanal, mensual). 
@@ -587,7 +591,7 @@
               img(src='@/assets/curso/temas/tema1/34.png', alt='')
         .row.justify-content-center.align-items-center(titulo="Retos de las organizaciones frente a la recopilación de datos")
           .col-md-5.mb-4.mb-md-0
-            p Retos de las organizaciones frente a la recopilación de datos:
+            h4 Retos de las organizaciones frente a la recopilación de datos
             p Las empresas y organizaciones generalmente se enfrentan a los siguientes escenarios donde se definen una serie de retos que normalmente se convierten en oportunidades, como puede ser: 
             p Falta de datos en tiempo real por parte de las empresas comercializadoras de energía.
           .col-md-7
@@ -595,19 +599,22 @@
               img(src='@/assets/curso/temas/tema1/35.png', alt='')
         .row.justify-content-center.align-items-center(titulo="Empresas pequeñas")
           .col-md-5.mb-4.mb-md-0
+            h4 Empresas pequeñas
             p En las empresas pequeñas normalmente el consumo de la energía se registra a través de la factura de energía que llega posterior al mes de consumo registrado. Frente a esta problemática, se puede consultar con los comercializadores de energía la posibilidad de instalar un medidor con comunicaciones o también que la propia organización adquiera un medidor y lo instale en la frontera donde se presta el servicio cumpliendo con la normativa.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/36.png', alt='')
         .row.justify-content-center.align-items-center(titulo="Falta de datos para las variables relevantes")
           .col-md-5.mb-4.mb-md-0
-            p Falta de datos para las variables relevantes: se sugiere evaluar la adquisición de sensores que permitan medir y registrar los datos, en lugar de depender de mediciones temporales con equipos portátiles durante la auditoría energética. 
+            h4 Falta de datos para las variables relevantes
+            p Se sugiere evaluar la adquisición de sensores que permitan medir y registrar los datos, en lugar de depender de mediciones temporales con equipos portátiles durante la auditoría energética. 
             p La falta de datos de consumo energético interno puede resolverse mediante la adquisición e instalación de submedidores para subdividir el consumo por áreas y equipos dentro de la organización. Esto permite obtener información más precisa y relevante sobre los usos significativos de la energía. 
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema1/37.png', alt='')
         .row.justify-content-center.align-items-center(titulo="La calidad de los datos")
           .col-md-5.mb-4.mb-md-0
+            h4 La calidad de los datos
             p La calidad de los datos es crucial para tomar decisiones acertadas. Para garantizar precisión, las organizaciones deben implementar planes de mantenimiento, calibración y verificación de equipos de medida. Se puede ahorrar costos calibrando un equipo como referencia para verificar otros equipos similares internamente.
           .col-md-7
             figure

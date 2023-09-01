@@ -56,7 +56,7 @@
               .titulo-sexto.color-acento-botones.mb-3
                 p.titulo.mb-0 <b>Figura 10. </b> <i>Tendencia de comportamiento para la organización.</i>
               figure
-                img(src='@/assets/curso/temas/tema4/tema4-04.png', alt='')
+                img(src='@/assets/curso/temas/tema4/tema4-04.png', alt='En la figura 10, se muestra una grafica con la tendencia del comportamiento del desempeño energético para las organizaciones.')
                 figcaption Nota. Adaptado de Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019).
 
 
