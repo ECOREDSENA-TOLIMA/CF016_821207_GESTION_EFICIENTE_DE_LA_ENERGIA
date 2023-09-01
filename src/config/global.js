@@ -129,7 +129,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_016.zip',
+        download: 'downloads/CFA_16_821207.zip',
       },
       {
         icono: 'fas fa-download',
@@ -177,7 +177,12 @@ export default {
   referencias: [
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación. (2017). Guía Técnica Colombiana. Sistemas de gestión de la energía. Medición del desempeño energético usando líneas de base energética (LBE) e indicadores de desempeño energético (IDE). Principios generales y lineamientos.  (GTC-ISO 50006:2017).',
+        'Instituto Colombiano de Normas Técnicas y Certificación. (2017). Guía Técnica Colombiana.',
+      link: '',
+    },
+    {
+      referencia:
+        'Sistemas de gestión de la energía. Medición del desempeño energético usando líneas de base energética (LBE) e indicadores de desempeño energético (IDE). Principios generales y lineamientos.  (GTC-ISO 50006:2017).',
       link: '',
     },
     {
@@ -187,7 +192,11 @@ export default {
     },
     {
       referencia:
-        'Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE. (2019). Implementación de un Sistema de Gestión de la Energía - Guía con base en la norma ISO 50001:2018. Segunda edición. ',
+        'Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE. (2019). ',
+    },
+    {
+      referencia:
+        'Implementación de un Sistema de Gestión de la Energía - Guía con base en la norma ISO 50001:2018. Segunda edición. ',
       link:
         'https://www1.upme.gov.co/DemandaEnergetica/EEIColombia/Guia_estructura_ISO50001.pdf',
     },

@@ -23,7 +23,7 @@
               .titulo-sexto.color-acento-botones.mb-3
                 p.titulo.mb-0 <b>Figura 8. </b> <i>Ejemplo de reporte diario de desempeño energético.</i>
               figure
-                img(src='@/assets/curso/temas/tema4/tema4-02.png', alt='')
+                img(src='@/assets/curso/temas/tema4/tema4-02.png', alt='Cumplimiento: es el consumo base dividido  entre el consumo real.  Desempeño: resultado de la diferencia entre el consumo real y el consumo base, (-) Indica ahorros, (+) Indica  sobreconsumos. Consumo base: es el consumo  de energía proyectado a partir de la línea base.  Consumo Real: es el consumo de energía medido en el periodo de monitoreo, (>100% indica ahorros, <100% indica sobreconsumos. Acumulado mes: es el desempeño acumulado del mes en curso.')
                 figcaption Nota. Adaptado de la Red Colombiana de Conocimiento en Eficiencia Energética - RECIEE (2019).
  
           .row.justify-content-center.align-items-center(titulo="Reporte semanal / quincenal / mensual del desempeño energético")
@@ -34,7 +34,7 @@
               .titulo-sexto.color-acento-botones.mb-3
                 p.titulo.mb-0 <b>Figura 9. </b> <i>Indicadores de desempeño energético.</i>
               figure
-                img(src='@/assets/curso/temas/tema4/tema4-03.png', alt='')
+                img(src='@/assets/curso/temas/tema4/tema4-03.png', alt='Reporte de indicadores de desempeño energético de tipo mensual para un edificio de oficinas.')
                 figcaption Nota. SENA (2022).
 
           .row.justify-content-center.align-items-center(titulo="Reporte anual del desempeño energético")

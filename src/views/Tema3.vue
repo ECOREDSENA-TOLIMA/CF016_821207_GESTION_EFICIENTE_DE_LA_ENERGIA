@@ -304,6 +304,13 @@
                 span Descargar
                 i.fas.fa-file-download
                 
+
+    Separador
+    #t_3_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 3.2 Mantenimiento y ajuste de los IDEn y las LBEn
+
+    p.mb-3 Observe el siguiente recurso el cual dará información detallada acerca del mantenimiento y ajuste de los IDEn y las LBEn.
+
     .tarjeta.tarjeta--azul.p-4.mb-4(data-aos="fade-right" style="background-color:#DBE6F5")
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center(titulo="1")

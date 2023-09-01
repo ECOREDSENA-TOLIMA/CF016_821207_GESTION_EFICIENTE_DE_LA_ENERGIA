@@ -439,7 +439,7 @@
         .titulo-sexto.color-secundario.mb-1
           p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Tendencia de energía total planta vs. kilos totales del producto.</i>
         figure
-          img(src='@/assets/curso/temas/tema1/tema1-13.png', alt='')
+          img(src='@/assets/curso/temas/tema1/tema1-13.png', alt='Tendencia de energía total planta VS kilos totales producto”, donde el consumo de kilovatios es comparado con los kilos totales de producción.')
           figcaption Nota. SENA (2022).
           
 
@@ -465,7 +465,7 @@
         .titulo-sexto.color-acento-botones
           p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Energía total vs. Kilos totales.</i>
         figure
-          img(src='@/assets/curso/temas/tema1/tema1-15.png', alt='')
+          img(src='@/assets/curso/temas/tema1/tema1-15.png', alt='En la Figura 3. se describe en una grafica la Energía total vs. Kilos totales.')
           figcaption Nota. SENA (2022).
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -544,7 +544,7 @@
             .titulo-sexto.color-acento-botones
               p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Tendencia iluminación edificio 1 y superficie edificio 1.</i> 
             figure
-              img(src='@/assets/curso/temas/tema1/tema1-20.png', alt='')
+              img(src='@/assets/curso/temas/tema1/tema1-20.png', alt='Imagen de una grafica que representa la Tendencia iluminación edificio 1 y superficie edificio 1.')
               
 
 

@@ -124,7 +124,7 @@
         .titulo-sexto.color-acento-botones.mb-3
           p.titulo.mb-0 <b>Figura 5. </b> <i>Línea de base de IDEn - EET (energía eléctrica total).</i>
         figure
-          img(src='@/assets/curso/temas/tema2/tema2-08.png', alt='')
+          img(src='@/assets/curso/temas/tema2/tema2-08.png', alt='En la Figura 5. contiene una grafica de Línea de base de IDEn - EET (energía eléctrica total).')
           figcaption Nota. SENA (2022).
 
     p.mb-5(data-aos="fade-down") De acuerdo con la tabla y figura anterior, se puede definir como línea de base energética para el IDEn Energía Eléctrica Total (EET) el valor promedio del consumo de los últimos 12 meses correspondiente a 89.409 kWh. Opcionalmente, se puede tomar como línea de base el valor de consumo de cada mes, para que en la evaluación del indicador se compare con el mismo mes que se está evaluando.
@@ -190,7 +190,7 @@
         .titulo-sexto.color-acento-botones.mb-3
           p.titulo.mb-0 <b>Figura 6. </b> <i>Graficación energía total vs. kilos totales de producción.</i>
         figure
-          img(src='@/assets/curso/temas/tema2/tema2-10.png', alt='')
+          img(src='@/assets/curso/temas/tema2/tema2-10.png', alt='En la figura 6. Se muestra una grafica comparativa entre la energía total y kilos totales de producción.')
           figcaption Nota. SENA (2022).
     p.mb-5(data-aos="fade-down") Debido a lo anterior, el equipo de gestión de la energía decide establecer un IDEn de tipo cociente de valores medidos, con alcance organizacional, denominado como EP_T  donde sea posible la creación de un modelo que permita relacionar el consumo de energía total de la planta y la producción total en kilos mensuales.
 
@@ -201,7 +201,7 @@
         .titulo-sexto.color-acento-botones.mb-3
           p.titulo.mb-0 <b>Figura 7. </b> <i>Ecuación de la graficación energía total vs. kilos totales de producción.</i>
         figure
-          img(src='@/assets/curso/temas/tema2/tema2-11.png', alt='')
+          img(src='@/assets/curso/temas/tema2/tema2-11.png', alt='En la Figura 7. se presenta una grafica con la Ecuación de la graficación energía total vs. kilos totales de producción.')
           figcaption Nota. SENA (2022).
 
 
